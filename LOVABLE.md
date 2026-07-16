@@ -6,6 +6,8 @@
 
 Lovable được giao thiết kế UI/UX, dựng giao diện chạy được và đồng bộ mã nguồn với repository sản phẩm đã chỉ định. Lovable không có quyền tự thay đổi định hướng sản phẩm, dữ liệu thật, tài sản thương hiệu đã khóa hoặc quy tắc điều hành chung.
 
+Lovable là chuyên gia thiết kế, không phải điều phối viên và không mặc định sở hữu toàn bộ frontend. Trước khi sửa code đã có, phải xác nhận Lovable đang là người viết duy nhất trên branch đó theo `AI-ROLES.md`.
+
 ## Trước khi thiết kế
 
 - Xác định đúng sản phẩm, người dùng mục tiêu và tác vụ chính.
