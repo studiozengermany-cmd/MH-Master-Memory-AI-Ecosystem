@@ -54,9 +54,11 @@ MH-Master-Memory-AI-Ecosystem/
 │   ├── core/
 │   │   ├── DECISION-OPERATING-SYSTEM.md
 │   │   └── MASTER-MEMORY-SCORECARD.md
-│   └── context/
-│       ├── OWNER-PROFILE.md
-│       └── ECOSYSTEM-CONTEXT.md
+│   ├── context/
+│   │   ├── OWNER-PROFILE.md
+│   │   └── ECOSYSTEM-CONTEXT.md
+│   └── references/
+│       └── SKILL-SOURCE-CATALOG.md
 ├── templates/
 │   ├── DECISION-ENTRY.md
 │   └── MILESTONE-ENTRY.md
