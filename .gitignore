@@ -1,0 +1,21 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets/
+
+# Local AI/tool state
+.claude/
+.codex/
+.cursor/
+.vscode/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+~$*
