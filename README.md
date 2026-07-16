@@ -48,6 +48,7 @@ MH-Master-Memory-AI-Ecosystem/
 ├── GEMINI.md
 ├── LOVABLE.md
 ├── AI-BOOTSTRAP.md
+├── AI-ROLES.md
 ├── SECURITY.md
 ├── docs/
 │   ├── core/
@@ -67,7 +68,7 @@ MH-Master-Memory-AI-Ecosystem/
 
 1. Mở repository này làm thư mục gốc hoặc cấp quyền đọc repository Private.
 2. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
-3. Đọc `AI-BOOTSTRAP.md` để biết cách kết nối với repository sản phẩm.
+3. Đọc `AI-BOOTSTRAP.md` và `AI-ROLES.md` để biết cách kết nối, phân công và bàn giao.
 4. Đọc hai tài liệu trong `docs/core/`.
 5. Chỉ đọc hồ sơ trong `docs/context/` khi nhiệm vụ thực sự cần.
 6. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
@@ -82,6 +83,15 @@ MH-Master-Memory-AI-Ecosystem/
 | Claude Code | `CLAUDE.md` | Tự nhập luật chung từ `AGENTS.md` |
 | Google Antigravity | `GEMINI.md` | Đọc luật chung và quy tắc workspace |
 | Lovable | `LOVABLE.md` | Dán một lần vào Project Knowledge của từng sản phẩm |
+
+### Thứ tự ưu tiên thực tế
+
+1. **Google Antigravity:** môi trường thi công chính.
+2. **ChatGPT + Codex:** một đầu não chung để tiếp nhận yêu cầu, điều phối, kiểm tra và giữ Master Memory.
+3. **Claude Code:** chuyên gia dự phòng cho ca khó, audit hoặc phản biện độc lập.
+4. **Lovable:** chuyên gia thiết kế UI/UX và giao diện sản phẩm.
+
+Chi tiết quyền hạn và quy tắc chống xung đột nằm trong `AI-ROLES.md`.
 
 ## Nguyên tắc bất khả xâm phạm
 
