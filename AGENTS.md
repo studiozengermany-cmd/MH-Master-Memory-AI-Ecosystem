@@ -5,10 +5,11 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 ## Thứ tự đọc bắt buộc
 
 1. `README.md`
-2. `docs/core/DECISION-OPERATING-SYSTEM.md`
-3. `docs/core/MASTER-MEMORY-SCORECARD.md`
-4. Tài liệu dự án được giao
-5. `docs/context/` chỉ khi nhiệm vụ cần bối cảnh cá nhân hoặc toàn hệ sinh thái
+2. `AI-ROLES.md`
+3. `docs/core/DECISION-OPERATING-SYSTEM.md`
+4. `docs/core/MASTER-MEMORY-SCORECARD.md`
+5. Tài liệu dự án được giao
+6. `docs/context/` chỉ khi nhiệm vụ cần bối cảnh cá nhân hoặc toàn hệ sinh thái
 
 ## Trước khi thay đổi
 
