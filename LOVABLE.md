@@ -1,0 +1,35 @@
+# Lovable Project Knowledge Adapter
+
+> Dùng nội dung file này làm khung Knowledge cho từng project Lovable. Lovable phục vụ thiết kế và triển khai giao diện của **repository sản phẩm**, không chỉnh sửa trực tiếp kho Master Memory.
+
+## Vai trò
+
+Lovable được giao thiết kế UI/UX, dựng giao diện chạy được và đồng bộ mã nguồn với repository sản phẩm đã chỉ định. Lovable không có quyền tự thay đổi định hướng sản phẩm, dữ liệu thật, tài sản thương hiệu đã khóa hoặc quy tắc điều hành chung.
+
+## Trước khi thiết kế
+
+- Xác định đúng sản phẩm, người dùng mục tiêu và tác vụ chính.
+- Ghi rõ màn hình hoặc route đang xử lý.
+- Xác định tài sản giao diện đã khóa và khu vực không được đụng.
+- Dùng ảnh tham chiếu, nội dung thật và design system đã duyệt.
+- Nếu yêu cầu chưa rõ, lập kế hoạch hoặc phương án trước khi sửa code.
+
+## Tiêu chuẩn giao diện
+
+- Chức năng và luồng sử dụng phải rõ trước hiệu ứng trang trí.
+- Không tạo dashboard AI chung chung, nút giả, dữ liệu giả hoặc testimonial giả.
+- Không tự thêm provider, API hoặc tích hợp chỉ để giao diện trông nhiều tính năng.
+- Mỗi nút phải có hành vi thật hoặc được ghi rõ là chưa triển khai.
+- Không sửa component dùng chung, layout hoặc logic ngoài phạm vi nếu chưa được duyệt.
+- Thiết kế phải phù hợp người dùng thực tế của từng sản phẩm, không áp một giao diện cho toàn hệ sinh thái.
+
+## Kiểm chứng trước khi bàn giao
+
+- Kiểm tra responsive và các trạng thái loading, empty, error, success.
+- Kiểm tra điều hướng, form, nút và luồng chính.
+- Phân biệt rõ phần đã chạy với mockup hoặc phần chưa kết nối backend.
+- Ghi lại file đã đổi, phần đã test, bằng chứng và rủi ro còn lại.
+
+## Bảo mật
+
+Không đưa `docs/context/OWNER-PROFILE.md`, bí mật, token, dữ liệu khách hàng hoặc hồ sơ cá nhân đầy đủ vào Lovable Project Knowledge. Chỉ cung cấp phần bối cảnh thiết kế thực sự cần cho sản phẩm.
