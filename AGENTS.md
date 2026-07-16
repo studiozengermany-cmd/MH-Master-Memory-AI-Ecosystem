@@ -24,6 +24,7 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 - Không tạo placeholder, TODO giả, nút giả hoặc bằng chứng giả.
 - Không tự mở rộng phạm vi chỉ để sản phẩm trông lớn hơn.
 - Nếu phát hiện lỗi nền tảng, dừng mở rộng và báo tác động trước.
+- Chỉ dùng `prompt-master` khi người dùng yêu cầu viết, sửa, audit hoặc chuyển đổi prompt; không dùng skill này thay cho việc thực thi nhiệm vụ trực tiếp.
 
 ## Khi kết thúc phiên
 
