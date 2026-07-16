@@ -50,6 +50,10 @@ MH-Master-Memory-AI-Ecosystem/
 ├── AI-BOOTSTRAP.md
 ├── AI-ROLES.md
 ├── SECURITY.md
+├── skills/
+│   └── prompt-master/
+├── scripts/
+│   └── install-prompt-master-windows.ps1
 ├── docs/
 │   ├── core/
 │   │   ├── DECISION-OPERATING-SYSTEM.md
@@ -57,8 +61,10 @@ MH-Master-Memory-AI-Ecosystem/
 │   ├── context/
 │   │   ├── OWNER-PROFILE.md
 │   │   └── ECOSYSTEM-CONTEXT.md
-│   └── references/
-│       └── SKILL-SOURCE-CATALOG.md
+│   ├── references/
+│   │   └── SKILL-SOURCE-CATALOG.md
+│   └── setup/
+│       └── PROMPT-MASTER.md
 ├── templates/
 │   ├── DECISION-ENTRY.md
 │   └── MILESTONE-ENTRY.md
@@ -85,6 +91,10 @@ MH-Master-Memory-AI-Ecosystem/
 | Claude Code | `CLAUDE.md` | Tự nhập luật chung từ `AGENTS.md` |
 | Google Antigravity | `GEMINI.md` | Đọc luật chung và quy tắc workspace |
 | Lovable | `LOVABLE.md` | Dán một lần vào Project Knowledge của từng sản phẩm |
+
+### Skill Prompt Master dùng chung
+
+`skills/prompt-master/` là nguồn chuẩn để viết, sửa, audit và chuyển đổi prompt cho nhiều công cụ. ChatGPT/Codex dùng bản skill cá nhân; Claude Code có project skill trong `.claude/skills/`; Claude Code và Google Antigravity trên Windows được cài toàn cục bằng `scripts/install-prompt-master-windows.ps1`. Hướng dẫn đầy đủ nằm tại `docs/setup/PROMPT-MASTER.md`.
 
 ### Thứ tự ưu tiên thực tế
 
