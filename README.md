@@ -1,2 +1,95 @@
-# MH-Master-Memory-AI-Ecosystem
-Kho nội bộ lưu Master Memory, nhật ký quyết định, bằng chứng, Scorecard và quy tắc điều phối các AI Agent trong hệ sinh thái Minh Hiếu.
+# MH Master Memory
+
+> **Hệ điều hành trí nhớ, quyết định và điều phối đa AI cho hệ sinh thái Minh Hiếu.**
+
+**MH Master Memory** là kho nội bộ tập trung những gì các AI Agent cần biết trước khi tham gia một dự án trong hệ sinh thái Minh Hiếu: bối cảnh đã xác nhận, nguyên tắc làm việc, quyết định quan trọng, cột mốc thực thi, bằng chứng kiểm thử, lỗi đã xảy ra và bài học không được phép quên.
+
+Mục tiêu của dự án không phải để AI “nhớ nhiều hơn”, mà để mọi AI **làm đúng hơn, trung thực hơn và phối hợp nhất quán hơn** qua nhiều phiên làm việc, nhiều công cụ và nhiều dự án khác nhau.
+
+## Dự án giải quyết điều gì?
+
+- Giảm tình trạng mỗi AI hiểu một kiểu hoặc bắt đầu lại từ đầu.
+- Ngăn lặp lại lỗi đã biết và bảo vệ các tài sản đã được khóa.
+- Buộc mọi tuyên bố hoàn thành phải đi kèm trạng thái và bằng chứng.
+- Ghi lại quyết định, lý do, đánh đổi và người phê duyệt.
+- Đối chiếu chất lượng làm việc giữa các AI bằng cùng một Scorecard.
+- Giữ các dự án độc lập, nhưng vẫn kết nối được thành một hệ sinh thái.
+
+## Vai trò và quyền quyết định
+
+AI Agent được phép phân tích, phản biện, đề xuất, thực thi trong phạm vi được giao và ghi lại bằng chứng. **Đặng Minh Hiếu giữ quyền quyết định cuối cùng.**
+
+```mermaid
+flowchart TD
+    A["Bối cảnh đã xác nhận"] --> D["AI Agent thực thi"]
+    B["Luật và quyết định"] --> D
+    C["Mục tiêu dự án"] --> D
+    D --> E["Bằng chứng và Milestone"]
+    E --> F["Scorecard và bài học"]
+    F --> A
+```
+
+## Bốn lớp lõi
+
+| Lớp | Chức năng |
+| --- | --- |
+| **Memory** | Lưu bối cảnh, cột mốc, lỗi và bài học xuyên phiên |
+| **Decision** | Ghi quyết định, lý do, rủi ro, đánh đổi và phê duyệt |
+| **Evidence** | Phân biệt rõ Tested, Untested và kiểm thử một phần |
+| **Governance** | Quy định phạm vi, tài sản đã khóa và quyền của AI Agent |
+
+## Cấu trúc kho
+
+```text
+MH-Master-Memory-AI-Ecosystem/
+├── README.md
+├── AGENTS.md
+├── SECURITY.md
+├── docs/
+│   ├── core/
+│   │   ├── DECISION-OPERATING-SYSTEM.md
+│   │   └── MASTER-MEMORY-SCORECARD.md
+│   └── context/
+│       ├── OWNER-PROFILE.md
+│       └── ECOSYSTEM-CONTEXT.md
+├── templates/
+│   ├── DECISION-ENTRY.md
+│   └── MILESTONE-ENTRY.md
+└── logs/
+    └── MILESTONES.md
+```
+
+## Cách một AI Agent bắt đầu
+
+1. Đọc `AGENTS.md`.
+2. Đọc hai tài liệu trong `docs/core/`.
+3. Chỉ đọc hồ sơ trong `docs/context/` khi nhiệm vụ thực sự cần.
+4. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
+5. Thực thi, kiểm thử và lưu bằng chứng thật.
+6. Kết thúc phiên bằng một Milestone Entry trong `logs/MILESTONES.md`.
+
+## Nguyên tắc bất khả xâm phạm
+
+1. Chất lượng thật quan trọng hơn số lượng đầu việc.
+2. Không nói “đã xong” khi chưa có bằng chứng phù hợp.
+3. Chưa kiểm thử phải ghi rõ **Untested**.
+4. Không tự đổi mục tiêu, tự giảm phạm vi hoặc thêm việc ngoài yêu cầu.
+5. Không xóa, ghi đè hoặc phá tài sản đã khóa khi chưa được phê duyệt.
+6. Sai phải ghi đúng lỗi, sửa hậu quả và tạo biện pháp ngăn tái diễn.
+7. Mỗi dự án phải rõ nét và hoạt động độc lập trước khi tích hợp hệ sinh thái.
+
+## Phạm vi sản phẩm
+
+Kho này là **lớp điều hành nội bộ**, không thay thế mã nguồn của các sản phẩm như SampleGuard FL, MH-FileOS hay công cụ thu thập sample. Mỗi sản phẩm vẫn có kho, lộ trình, kiểm thử và gói thương mại riêng; MH Master Memory chỉ giữ bối cảnh chung, quyết định liên dự án và chuẩn phối hợp AI.
+
+## Trạng thái
+
+**Internal / Private — v1.0 Foundation**
+
+Khung lõi đã được hình thành từ tài liệu vận hành thực tế. Các cơ chế đồng bộ tự động, phân quyền máy đọc được và dashboard Scorecard vẫn phải được triển khai, kiểm thử và ghi bằng chứng trước khi xem là tính năng hoàn chỉnh.
+
+## Quyền sở hữu
+
+Copyright © 2026 Đặng Minh Hiếu / MINH HIEU STUDIO. All rights reserved.
+
+Kho này chứa tài liệu vận hành nội bộ. Không sao chép, chia sẻ, công khai hoặc sử dụng lại khi chưa có sự cho phép bằng văn bản của chủ sở hữu.
