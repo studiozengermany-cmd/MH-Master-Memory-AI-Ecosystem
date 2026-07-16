@@ -44,6 +44,10 @@ flowchart TD
 MH-Master-Memory-AI-Ecosystem/
 ├── README.md
 ├── AGENTS.md
+├── CLAUDE.md
+├── GEMINI.md
+├── LOVABLE.md
+├── AI-BOOTSTRAP.md
 ├── SECURITY.md
 ├── docs/
 │   ├── core/
@@ -61,12 +65,23 @@ MH-Master-Memory-AI-Ecosystem/
 
 ## Cách một AI Agent bắt đầu
 
-1. Đọc `AGENTS.md`.
-2. Đọc hai tài liệu trong `docs/core/`.
-3. Chỉ đọc hồ sơ trong `docs/context/` khi nhiệm vụ thực sự cần.
-4. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
-5. Thực thi, kiểm thử và lưu bằng chứng thật.
-6. Kết thúc phiên bằng một Milestone Entry trong `logs/MILESTONES.md`.
+1. Mở repository này làm thư mục gốc hoặc cấp quyền đọc repository Private.
+2. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
+3. Đọc `AI-BOOTSTRAP.md` để biết cách kết nối với repository sản phẩm.
+4. Đọc hai tài liệu trong `docs/core/`.
+5. Chỉ đọc hồ sơ trong `docs/context/` khi nhiệm vụ thực sự cần.
+6. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
+7. Thực thi, kiểm thử và lưu bằng chứng thật.
+8. Kết thúc phiên bằng một Milestone Entry trong `logs/MILESTONES.md`.
+
+## Bộ khởi động đa AI
+
+| Công cụ | Điểm vào | Cách dùng |
+| --- | --- | --- |
+| Codex | `AGENTS.md` | Tự đọc khi chạy trong repository |
+| Claude Code | `CLAUDE.md` | Tự nhập luật chung từ `AGENTS.md` |
+| Google Antigravity | `GEMINI.md` | Đọc luật chung và quy tắc workspace |
+| Lovable | `LOVABLE.md` | Dán một lần vào Project Knowledge của từng sản phẩm |
 
 ## Nguyên tắc bất khả xâm phạm
 
