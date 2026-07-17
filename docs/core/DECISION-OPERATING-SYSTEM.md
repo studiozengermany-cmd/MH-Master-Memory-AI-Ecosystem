@@ -3,6 +3,8 @@
 > **Mục đích:** Biến Master Memory từ nơi ghi chép thành hệ điều hành giúp anh quyết định đúng việc, đúng thời điểm, đúng mức rủi ro và giảm sai lầm cho anh.  
 > **Vai trò:** AI là người điều phối, phân tích, phản biện, theo dõi và đề xuất. Anh giữ quyền quyết định cuối cùng.  
 > **Nguyên tắc lõi:** Chất lượng > số lượng · trải nghiệm thật > code/vỏ bọc · kết nối > làm rời rạc · học từ sai lầm > che giấu sai lầm.
+
+Với mọi nhiệm vụ có giao diện, áp dụng thêm `PRODUCT-UI-STANDARD.md`: chức năng tốt là nghĩa vụ mặc định; giao diện là một cổng chất lượng độc lập và thiết kế đã duyệt là tài sản khóa.
 * * *
 # 1\. Hệ điều hành này giải quyết gì?
 Khung cũ chủ yếu trả lời: **đã làm gì và AI làm tốt không?**
