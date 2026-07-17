@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-17] — ChatGPT/Codex — Tiêu chuẩn sản phẩm và giao diện
+
+- Mục tiêu phiên: Lưu quan điểm trực tiếp của Đặng Minh Hiếu về vai trò của UI và chất lượng sản phẩm để mọi AI sau đọc được.
+- Đã làm: Tạo `docs/core/PRODUCT-UI-STANDARD.md`; bổ sung vào thứ tự đọc bắt buộc; khóa nguyên tắc “MVP ít tính năng nhưng không được cẩu thả về UI”; tách bằng chứng chức năng, giao diện và trải nghiệm người dùng.
+- Trạng thái: Tested — tài liệu đã được tạo và kiểm tra định dạng; chưa áp dụng thử vào một dự án UI mới.
+- Bằng chứng: `docs/core/PRODUCT-UI-STANDARD.md`, `AGENTS.md`, `README.md`, `docs/core/DECISION-OPERATING-SYSTEM.md`.
+- Còn dở / rủi ro: Các repository sản phẩm cũ chưa chắc đã trỏ đến tiêu chuẩn mới này.
+- Bước tiếp theo đề xuất: Khi mở từng repository sản phẩm, thêm adapter ngắn trỏ về tiêu chuẩn UI chung và design baseline riêng của dự án đó.
+- Lưu ý cho AI sau: Không áp một palette/font chung cho mọi dự án; phải dùng yêu cầu hiện tại và thiết kế riêng đã duyệt. Không dùng backend tốt để bù cho UI chưa đạt.
+
 ### [2026-07-16] — ChatGPT/Codex — Prompt Master đa nền tảng
 
 - Mục tiêu phiên: Chuẩn hóa nguồn `prompt-master` và triển khai cùng một lõi cho ChatGPT/Codex, Claude Code và Google Antigravity.
