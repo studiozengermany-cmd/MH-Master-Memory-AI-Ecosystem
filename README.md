@@ -57,6 +57,7 @@ MH-Master-Memory-AI-Ecosystem/
 ├── docs/
 │   ├── core/
 │   │   ├── DECISION-OPERATING-SYSTEM.md
+│   │   ├── PRODUCT-UI-STANDARD.md
 │   │   └── MASTER-MEMORY-SCORECARD.md
 │   ├── context/
 │   │   ├── OWNER-PROFILE.md
@@ -77,7 +78,7 @@ MH-Master-Memory-AI-Ecosystem/
 1. Mở repository này làm thư mục gốc hoặc cấp quyền đọc repository Private.
 2. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
 3. Đọc `AI-BOOTSTRAP.md` và `AI-ROLES.md` để biết cách kết nối, phân công và bàn giao.
-4. Đọc hai tài liệu trong `docs/core/`.
+4. Đọc các tài liệu trong `docs/core/`; nếu nhiệm vụ có giao diện, bắt buộc đọc `PRODUCT-UI-STANDARD.md`.
 5. Chỉ đọc hồ sơ trong `docs/context/` khi nhiệm vụ thực sự cần.
 6. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
 7. Thực thi, kiểm thử và lưu bằng chứng thật.
@@ -114,6 +115,7 @@ Chi tiết quyền hạn và quy tắc chống xung đột nằm trong `AI-ROLES
 5. Không xóa, ghi đè hoặc phá tài sản đã khóa khi chưa được phê duyệt.
 6. Sai phải ghi đúng lỗi, sửa hậu quả và tạo biện pháp ngăn tái diễn.
 7. Mỗi dự án phải rõ nét và hoạt động độc lập trước khi tích hợp hệ sinh thái.
+8. Chức năng tốt là nghĩa vụ mặc định; sản phẩm có UI chỉ đạt khi giao diện cũng đúng baseline, trực quan và thể hiện sự tôn trọng người dùng.
 
 ## Phạm vi sản phẩm
 
