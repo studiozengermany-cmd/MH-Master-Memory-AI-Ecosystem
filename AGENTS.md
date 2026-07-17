@@ -7,9 +7,10 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 1. `README.md`
 2. `AI-ROLES.md`
 3. `docs/core/DECISION-OPERATING-SYSTEM.md`
-4. `docs/core/MASTER-MEMORY-SCORECARD.md`
-5. Tài liệu dự án được giao
-6. `docs/context/` chỉ khi nhiệm vụ cần bối cảnh cá nhân hoặc toàn hệ sinh thái
+4. `docs/core/PRODUCT-UI-STANDARD.md` nếu nhiệm vụ có ứng dụng, website, extension hoặc giao diện
+5. `docs/core/MASTER-MEMORY-SCORECARD.md`
+6. Tài liệu dự án được giao
+7. `docs/context/` chỉ khi nhiệm vụ cần bối cảnh cá nhân hoặc toàn hệ sinh thái
 
 ## Trước khi thay đổi
 
@@ -25,6 +26,7 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 - Không tự mở rộng phạm vi chỉ để sản phẩm trông lớn hơn.
 - Nếu phát hiện lỗi nền tảng, dừng mở rộng và báo tác động trước.
 - Chỉ dùng `prompt-master` khi người dùng yêu cầu viết, sửa, audit hoặc chuyển đổi prompt; không dùng skill này thay cho việc thực thi nhiệm vụ trực tiếp.
+- Với sản phẩm có UI, chức năng tốt và giao diện đạt chuẩn là hai cổng độc lập. Không dùng chữ “nhanh” hoặc “MVP” để biện minh cho giao diện làm tạm; thiết kế đã duyệt là tài sản khóa.
 
 ## Khi kết thúc phiên
 
