@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-18 15:31] — ChatGPT/Codex — Chuẩn hóa cách AI làm việc với Minh Hiếu
+
+- Mục tiêu phiên: Bổ sung các xác nhận mới nhất vào Master Memory sẵn có trên GitHub để các AI khác không lặp lại lỗi cũ.
+- Đã làm: Bổ sung trực tiếp vào `docs/context/OWNER-PROFILE.md`; cập nhật `AGENTS.md`, `AI-BOOTSTRAP.md`, `LOVABLE.md` và `README.md`; sửa thông tin cũ từng hiểu MinhLyTeam như nhãn cộng tác và từng khóa sai toàn bộ Hero; ghi rõ website do một mình Đặng Minh Hiếu thực hiện, `Collab spec` phải bị loại bỏ, MinhLyTeam không nằm trong Hero, cùng các sở thích giao diện và quy tắc prompt đã xác nhận ngày 18/07/2026; thêm quy trình kiểm tra GitHub trước khi làm và cập nhật Master Memory trong ngày khi có thông tin mới.
+- Trạng thái: Tested — đã đối chiếu nội dung mới với các xác nhận trực tiếp trong phiên, kiểm tra diff và lỗi khoảng trắng; đây là thay đổi tài liệu, không phải kiểm thử website.
+- Bằng chứng: `docs/context/OWNER-PROFILE.md`, `AGENTS.md`, `AI-BOOTSTRAP.md`, `LOVABLE.md`, `README.md` và diff Git của phiên.
+- Còn dở / rủi ro: Các AI chỉ nhận quy tắc mới sau khi thay đổi được nhập vào nhánh chính và chúng đọc bản GitHub mới nhất; từng repository sản phẩm vẫn cần adapter riêng nếu không đọc trực tiếp Master Memory.
+- Bước tiếp theo đề xuất: Đưa thay đổi lên GitHub; sau khi được nhập vào nhánh mặc định, cấu hình từng AI đọc `AGENTS.md` hoặc adapter tương ứng trước khi nhận việc.
+- Lưu ý cho AI sau: Dùng tiếng Việt và giải thích tiếng Anh; không sửa prompt theo từng câu rời; “gom” nghĩa là một bản cuối ngắn, thống nhất và có hành động; build pass hoặc giao diện đang tồn tại không đồng nghĩa đã được duyệt; không tái đưa nội dung chủ sở hữu đã bác bỏ trở lại sản phẩm.
+
 ### [2026-07-17] — ChatGPT/Codex — Tiêu chuẩn sản phẩm và giao diện
 
 - Mục tiêu phiên: Lưu quan điểm trực tiếp của Đặng Minh Hiếu về vai trò của UI và chất lượng sản phẩm để mọi AI sau đọc được.
@@ -11,6 +21,18 @@
 - Còn dở / rủi ro: Các repository sản phẩm cũ chưa chắc đã trỏ đến tiêu chuẩn mới này.
 - Bước tiếp theo đề xuất: Khi mở từng repository sản phẩm, thêm adapter ngắn trỏ về tiêu chuẩn UI chung và design baseline riêng của dự án đó.
 - Lưu ý cho AI sau: Không áp một palette/font chung cho mọi dự án; phải dùng yêu cầu hiện tại và thiết kế riêng đã duyệt. Không dùng backend tốt để bù cho UI chưa đạt.
+
+### [2026-07-17 17:33] — ChatGPT/Codex — Sự cố điều phối MH-Dowsample Extension
+
+- Mục tiêu phiên: Review giao diện Lovable, viết prompt giao việc đúng phạm vi và bảo vệ bản extension đang dùng.
+- Đã làm: ChatGPT/Codex đã trộn ba nhiệm vụ review, viết prompt và thực thi; đồng thời để ba nguồn local, GitHub `main` và Lovable phát triển lệch nhau. AI đã hướng Lovable loại bỏ phần preview nhưng sau đó chỉ dẫn sai rằng không cần khôi phục `PopupView.tsx`, lấy popup production cũ từ `main` và đóng gói lại. AI còn khẳng định sai icons tồn tại trên GitHub vì nhầm file local chưa commit với file remote.
+- Trạng thái: Một phần — đã xác minh và ghi nhận sự cố; chưa thực hiện phục hồi sản phẩm theo yêu cầu dừng thao tác của chủ sở hữu.
+- Bằng chứng: `origin/main` chỉ có `extension/manifest.json`, `popup.html`, `popup.css`, `popup.js`; bốn file này khác các file trong working tree local. Báo cáo Lovable xác nhận đã xóa source preview/giao diện và đóng ZIP từ popup cũ. Các quy tắc bị vi phạm được đối chiếu tại `AGENTS.md`, `AI-ROLES.md`, `LOVABLE.md`, `docs/core/DECISION-OPERATING-SYSTEM.md` và `skills/prompt-master/SKILL.md`.
+- Tác động lên chủ sở hữu: Mất thời gian, rối nguồn sự thật, lo ngại mất giao diện đã duyệt, giảm niềm tin và làm gián đoạn sinh hoạt cá nhân.
+- Nguyên nhân gốc: Không đi qua Gate A để hỏi khi mục tiêu và nguồn code còn mơ hồ; không phân biệt review với implementation; không giữ Lovable trong Design Plane; không xác minh remote trước khi đưa dữ kiện vào prompt; không thiết lập một nguồn sự thật và một người viết duy nhất.
+- Còn dở / rủi ro: Repo local còn thay đổi chưa commit; GitHub `main` vẫn là extension cũ; project Lovable đã thay đổi source; chưa có một bản production thống nhất và chưa kiểm thử end-to-end trên Windows/Brave.
+- Bước tiếp theo đề xuất: Không tự phục hồi. Chờ chủ sở hữu chọn nguồn cần giữ; trước mọi hành động phải chụp hiện trạng/backup, xác nhận chính xác phạm vi file và xin duyệt kế hoạch phục hồi.
+- Lưu ý cho AI sau: `review` mặc định là đọc và báo cáo, không sửa. Khi người dùng yêu cầu prompt, chỉ trả prompt. Nếu local, remote và công cụ thiết kế khác nhau thì dừng và hỏi nguồn nào là chuẩn. Không xóa hoặc hướng công cụ khác xóa component chưa phân loại. Lovable chỉ xử lý Design Plane trừ khi chủ sở hữu giao rõ phạm vi khác. Không tuyên bố sản phẩm dùng được dựa trên typecheck/build/test mô phỏng; cần bằng chứng trải nghiệm thật.
 
 ### [2026-07-16] — ChatGPT/Codex — Prompt Master đa nền tảng
 

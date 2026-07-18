@@ -79,7 +79,7 @@ MH-Master-Memory-AI-Ecosystem/
 2. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
 3. Đọc `AI-BOOTSTRAP.md` và `AI-ROLES.md` để biết cách kết nối, phân công và bàn giao.
 4. Đọc các tài liệu trong `docs/core/`; nếu nhiệm vụ có giao diện, bắt buộc đọc `PRODUCT-UI-STANDARD.md`.
-5. Chỉ đọc hồ sơ trong `docs/context/` khi nhiệm vụ thực sự cần.
+5. Đọc `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách giao tiếp và làm việc; chỉ đọc các hồ sơ ngữ cảnh khác khi nhiệm vụ thực sự cần.
 6. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
 7. Thực thi, kiểm thử và lưu bằng chứng thật.
 8. Kết thúc phiên bằng một Milestone Entry trong `logs/MILESTONES.md`.
