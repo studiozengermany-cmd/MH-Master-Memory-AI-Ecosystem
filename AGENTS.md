@@ -6,7 +6,7 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 
 1. `README.md`
 2. `AI-ROLES.md`
-3. `docs/context/AI-WORKING-PREFERENCES.md`
+3. `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách làm việc
 4. `docs/core/DECISION-OPERATING-SYSTEM.md`
 5. `docs/core/PRODUCT-UI-STANDARD.md` nếu nhiệm vụ có ứng dụng, website, extension hoặc giao diện
 6. `docs/core/MASTER-MEMORY-SCORECARD.md`
@@ -16,6 +16,7 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 ## Trước khi thay đổi
 
 - Nói rõ mục tiêu và phạm vi.
+- Khi có kết nối GitHub, kiểm tra `origin/main` mới nhất để không làm việc từ bộ nhớ cũ.
 - Kiểm tra tài sản đã khóa và thay đổi đang tồn tại.
 - Không xóa, ghi đè, đổi cấu trúc lớn, commit, push hoặc deploy nếu chưa có quyền rõ ràng.
 - Không đưa dữ liệu nội bộ, thông tin cá nhân hoặc bí mật vào log công khai.
@@ -45,3 +46,11 @@ Thêm một entry vào `logs/MILESTONES.md` theo `templates/MILESTONE-ENTRY.md`.
 - cảnh báo cho AI sau.
 
 Không sửa hoặc xóa lịch sử cũ để làm đẹp báo cáo.
+
+Nếu trong phiên có xác nhận, sửa sai, quyết định hoặc sở thích mới từ Đặng Minh Hiếu:
+
+- bổ sung vào tài liệu hiện có phù hợp; không tạo hồ sơ trùng;
+- thêm Milestone mới;
+- loại bỏ hoặc đánh dấu thông tin cũ đã bị thay thế để AI sau không tiếp tục dùng;
+- đẩy bản cập nhật Master Memory lên GitHub bằng branch/PR an toàn trong ngày khi có quyền và kết nối;
+- không tạo commit rỗng nếu không có thông tin mới đã xác nhận.

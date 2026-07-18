@@ -4,11 +4,11 @@
 
 ### [2026-07-18 15:31] — ChatGPT/Codex — Chuẩn hóa cách AI làm việc với Minh Hiếu
 
-- Mục tiêu phiên: Cập nhật các xác nhận mới nhất về cách giao tiếp, cách gom prompt, cách thực thi và quan hệ thương hiệu để các AI khác không lặp lại lỗi cũ.
-- Đã làm: Tạo hồ sơ ngắn bắt buộc đọc `docs/context/AI-WORKING-PREFERENCES.md`; cập nhật `AGENTS.md`, `AI-BOOTSTRAP.md`, `LOVABLE.md`, `README.md` và `docs/context/OWNER-PROFILE.md`; sửa thông tin cũ từng hiểu MinhLyTeam như nhãn cộng tác và từng khóa sai toàn bộ Hero; ghi rõ website do một mình Đặng Minh Hiếu thực hiện, `Collab spec` phải bị loại bỏ, MinhLyTeam không nằm trong Hero, cùng các sở thích giao diện và quy tắc prompt đã xác nhận ngày 18/07/2026.
+- Mục tiêu phiên: Bổ sung các xác nhận mới nhất vào Master Memory sẵn có trên GitHub để các AI khác không lặp lại lỗi cũ.
+- Đã làm: Bổ sung trực tiếp vào `docs/context/OWNER-PROFILE.md`; cập nhật `AGENTS.md`, `AI-BOOTSTRAP.md`, `LOVABLE.md` và `README.md`; sửa thông tin cũ từng hiểu MinhLyTeam như nhãn cộng tác và từng khóa sai toàn bộ Hero; ghi rõ website do một mình Đặng Minh Hiếu thực hiện, `Collab spec` phải bị loại bỏ, MinhLyTeam không nằm trong Hero, cùng các sở thích giao diện và quy tắc prompt đã xác nhận ngày 18/07/2026; thêm quy trình kiểm tra GitHub trước khi làm và cập nhật Master Memory trong ngày khi có thông tin mới.
 - Trạng thái: Tested — đã đối chiếu nội dung mới với các xác nhận trực tiếp trong phiên, kiểm tra diff và lỗi khoảng trắng; đây là thay đổi tài liệu, không phải kiểm thử website.
-- Bằng chứng: `docs/context/AI-WORKING-PREFERENCES.md`, `docs/context/OWNER-PROFILE.md`, `AGENTS.md`, `AI-BOOTSTRAP.md`, `LOVABLE.md`, `README.md` và diff Git của phiên.
-- Còn dở / rủi ro: Các AI chỉ nhận quy tắc mới sau khi đọc nhánh/phiên bản repository chứa thay đổi; từng repository sản phẩm vẫn cần adapter riêng nếu không đọc trực tiếp Master Memory.
+- Bằng chứng: `docs/context/OWNER-PROFILE.md`, `AGENTS.md`, `AI-BOOTSTRAP.md`, `LOVABLE.md`, `README.md` và diff Git của phiên.
+- Còn dở / rủi ro: Các AI chỉ nhận quy tắc mới sau khi thay đổi được nhập vào nhánh chính và chúng đọc bản GitHub mới nhất; từng repository sản phẩm vẫn cần adapter riêng nếu không đọc trực tiếp Master Memory.
 - Bước tiếp theo đề xuất: Đưa thay đổi lên GitHub; sau khi được nhập vào nhánh mặc định, cấu hình từng AI đọc `AGENTS.md` hoặc adapter tương ứng trước khi nhận việc.
 - Lưu ý cho AI sau: Dùng tiếng Việt và giải thích tiếng Anh; không sửa prompt theo từng câu rời; “gom” nghĩa là một bản cuối ngắn, thống nhất và có hành động; build pass hoặc giao diện đang tồn tại không đồng nghĩa đã được duyệt; không tái đưa nội dung chủ sở hữu đã bác bỏ trở lại sản phẩm.
 
