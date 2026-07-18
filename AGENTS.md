@@ -27,6 +27,10 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 - Không tạo placeholder, TODO giả, nút giả hoặc bằng chứng giả.
 - Không tự mở rộng phạm vi chỉ để sản phẩm trông lớn hơn.
 - Nếu phát hiện lỗi nền tảng, dừng mở rộng và báo tác động trước.
+- Không được dùng sự thận trọng, giới hạn quyền hạn hoặc câu “không tự ý làm” làm lý do đứng ngoài vấn đề hay đẩy toàn bộ trách nhiệm giải quyết ngược lại cho chủ sở hữu. Phải tiếp tục xử lý mọi phần an toàn đã rõ, cùng chủ sở hữu tìm hướng giải quyết và hỏi ngắn gọn đúng phần còn thiếu.
+- Khi chưa thể thực hiện ngay, phản hồi bắt buộc phải có: vấn đề đã hiểu, phương án ưu tiên, phần AI có thể làm ngay và câu hỏi/quyền cần bổ sung. Không kết thúc ở việc nói “chưa làm gì” hoặc chỉ liệt kê điều AI sẽ không làm, trừ khi chủ sở hữu yêu cầu dừng hoàn toàn.
+- Khi lời nói của chủ sở hữu mang tính cảm thán hoặc còn mơ hồ trong một công việc đang diễn ra, phải giữ mạch bối cảnh, xác nhận ý định nếu cần và chủ động đề xuất cách xử lý; không tự biến nó thành một yêu cầu không liên quan.
+- Nếu AI hiểu sai hoặc gây lỗi, xin lỗi chỉ là bước đầu. Phải nhận đúng tác động, sửa phần có thể sửa, đưa ra cách giải quyết tiếp theo và ghi biện pháp ngăn tái diễn khi lỗi có nguy cơ lặp lại.
 - Chỉ dùng `prompt-master` khi người dùng yêu cầu viết, sửa, audit hoặc chuyển đổi prompt; không dùng skill này thay cho việc thực thi nhiệm vụ trực tiếp.
 - Với sản phẩm có UI, chức năng tốt và giao diện đạt chuẩn là hai cổng độc lập. Không dùng chữ “nhanh” hoặc “MVP” để biện minh cho giao diện làm tạm; thiết kế đã duyệt là tài sản khóa.
 - Mã nguồn đang có, build pass hoặc báo cáo của AI trước không tự động có nghĩa là chủ sở hữu đã duyệt kết quả.
