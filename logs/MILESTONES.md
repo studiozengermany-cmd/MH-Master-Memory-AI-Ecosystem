@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-18 17:09] — ChatGPT/Codex — Trách nhiệm đồng hành giải quyết vấn đề
+
+- Mục tiêu phiên: Loại bỏ cách xử lý trong đó AI vin vào sự thận trọng hoặc câu “không tự ý làm” để đứng ngoài vấn đề và đẩy trách nhiệm điều phối ngược lại cho Đặng Minh Hiếu.
+- Đã làm: Bổ sung xác nhận trực tiếp vào `docs/context/OWNER-PROFILE.md`; thêm luật bắt buộc vào `AGENTS.md`; cập nhật vai trò ChatGPT/Codex trong `AI-ROLES.md`; quy định AI phải giữ mạch bối cảnh, làm phần an toàn đã rõ, đề xuất phương án ưu tiên, hỏi đúng điểm còn thiếu và sửa sai bằng hành động thay vì chỉ xin lỗi.
+- Trạng thái: Tested — đã cập nhật tài liệu vận hành và sẽ kiểm tra diff/lỗi khoảng trắng; đây là thay đổi Master Memory, không phải kiểm thử sản phẩm.
+- Bằng chứng: `docs/context/OWNER-PROFILE.md`, `AGENTS.md`, `AI-ROLES.md` và diff Git của phiên.
+- Còn dở / rủi ro: Quy tắc chỉ có hiệu lực với AI đọc bản Master Memory mới nhất; chất lượng thực tế phải tiếp tục được chứng minh qua cách xử lý các nhiệm vụ sau.
+- Bước tiếp theo đề xuất: Đồng bộ thay đổi lên GitHub `main`; ở nhiệm vụ kế tiếp, áp dụng ngay bằng cách chủ động đưa hướng giải quyết thay vì chỉ liệt kê giới hạn.
+- Lưu ý cho AI sau: Không bắt anh Hiếu tự làm project manager cho AI. Thận trọng là để bảo vệ dữ liệu và quyết định, không phải lý do bỏ mặc; nếu phải dừng ở điểm rủi ro thì vẫn phải đưa phương án, làm phần an toàn và hỏi tối thiểu để mở khóa.
+
 ### [2026-07-18 15:31] — ChatGPT/Codex — Chuẩn hóa cách AI làm việc với Minh Hiếu
 
 - Mục tiêu phiên: Bổ sung các xác nhận mới nhất vào Master Memory sẵn có trên GitHub để các AI khác không lặp lại lỗi cũ.
