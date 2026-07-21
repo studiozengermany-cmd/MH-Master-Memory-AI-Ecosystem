@@ -23,12 +23,11 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 - **[Đã xác nhận]** AI nên gọi là **Minh Hiếu**, không dùng HIEU DONALD trừ khi đề cập lịch sử.
 
 ### Kinh nghiệm
-- **[Đã xác nhận]** Làm DJ được **4 năm** (tính đến 2026 = bắt đầu khoảng 2022).
-- **[Đã xác nhận]** Có nhiều show và ảnh thực tế nhưng chưa có thời gian cập nhật lên.
+- **[Đã xác nhận]** Làm DJ được **4 năm** (~từ 2022).
+- **[Đã xác nhận]** Có nhiều show và ảnh thực tế — chưa có thời gian cập nhật lên.
 
 ### Khu vực hoạt động
-- **[Đã xác nhận]** Việt Nam.
-- **[Chưa có thông tin]** Thành phố cụ thể.
+- **[Đã xác nhận]** **Vĩnh Long**, Việt Nam.
 
 ### Nghề nghiệp và vai trò
 - **[Đã xác nhận]** DJ / Producer. 4 năm kinh nghiệm.
@@ -61,11 +60,11 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 - **[Đã xác nhận]** Địa điểm: Guest DJ tại Six T Club 12/03/2024.
 - **[Đã xác nhận]** Có nhiều show và ảnh thực tế — chưa có thời gian đăng lên.
 - **[Đã xác nhận]** Bản nhạc: "Liễu Thanh Yên x J97 — Minh Hieu Remix 2K26".
-- **[Đã xác nhận]** Bắt đầu làm DJ khoảng 2022 (4 năm tính đến 2026).
+- **[Đã xác nhận]** Bắt đầu làm DJ khoảng 2022.
 
-### Nhạc nổi bật trên SoundCloud
-- **[Đã xác nhận]** Nonstop "Trở Về Phố Cũ 2024 — HieuDonald Mix"
-- **[Đã xác nhận]** NST "New Style 2024 — Lời Nhớ — HieuDonald Mix" (trên DiiJam)
+### Nhạc nổi bật
+- SoundCloud: https://soundcloud.com/djhieudonald/nonstop-tro-ve-pho-cu-2024-hieudonald-mix
+- DiiJam: https://diijam.app.link/hieu-donald-nst-new-style-2024-loi-nho-hieudonald-mix-t22483
 
 ---
 
@@ -82,12 +81,20 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 ## E. WEBSITE VÀ KHÁN GIẢ
 
 - **[Đã xác nhận]** URL: https://studiominhhieu.com/ — **đang trong quá trình tối ưu**.
-- **[Đã xác nhận]** Mục đích: lưu trữ sống cho nhạc, tư liệu, dự án, ghi chú workflow.
+- **[Đã xác nhận]** Tagline hiện tại: *"Âm nhạc và công cụ, làm bởi Minh Hiếu. Lưu trữ bản mix, ghi chú workflow và trạng thái các dự án MH."*
+- **[Đã xác nhận]** Ngôn ngữ: **VI / EN** (có toggle).
+- **[Đã xác nhận]** Cấu trúc **dạng tab/route** (không phải một trang cuộn):
+  - Trang Chủ
+  - Âm Nhạc
+  - Tư Liệu
+  - Dự Án
+  - Ghi Chú
+  - Giới Thiệu
+  - Đăng Nhập
+- **[Đã xác nhận]** CTA chính: *Nghe bản mới nhất* • *Xem hệ sinh thái MH →*
 
 ### Khán giả mục tiêu
-- **[Đã xác nhận]** Nhóm chính: **người bình dân có chí cầu tiến** — chịu khó học hỏi, tìm tòi, nhưng điều kiện chưa có nhiều.
-- **[Đã xác nhận]** Không nhắm tới: người có nhiều tiền, thượng lưu.
-- **[Đã xác nhận]** Cả **dân code** lẫn **anh em làm nhạc** đều là đối tượng.
+- **[Đã xác nhận]** Người bình dân có chí cầu tiến, điều kiện chưa có nhiều. Cả dân code lẫn anh em làm nhạc.
 - **[Đã xác nhận]** Hiện tại chưa tập trung monetize.
 
 ---
@@ -106,11 +113,11 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 ## G. PHONG CÁCH LÀM VIỆC VỚI AI
 
 - **[Đã xác nhận]** Tiếng Việt, thẳng, rõ, tập trung kết quả.
-- **[Đã xác nhận]** **Hỏi thẳng khi không hiểu**. Không suy diễn.
-- **[Đã xác nhận]** **Chậm mà chắc, rõ từng bước**. Không cần nhanh.
+- **[Đã xác nhận]** Hỏi thẳng khi không hiểu. Không suy diễn.
+- **[Đã xác nhận]** Chậm mà chắc, rõ từng bước. Không cần nhanh.
 - **[Đã xác nhận]** Báo hoàn thành phải có bằng chứng (link, commit, log).
-- **[Đã xác nhận]** **Giao diện phải đẹp mắt trước** — cảm nhận đầu tiên quan trọng.
-- **[Đã xác nhận]** Quan hệ win-win. AI chủ động, làm trong scope, báo sau.
+- **[Đã xác nhận]** Giao diện phải đẹp mắt trước — cảm nhận đầu tiên quan trọng.
+- **[Đã xác nhận]** Quan hệ win-win. AI chủ động trong scope, báo sau.
 - **[Đã xác nhận]** Không fake UI, fake data, fake báo cáo.
 
 ### Những việc AI phải hỏi trước
@@ -124,17 +131,15 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 ## H. TÀI SẢN VÀ KIếN TRÚC HỆ SINH THÁI
 
 - **[Đã xác nhận]** Website: https://studiominhhieu.com/
+- **[Đã xác nhận]** Địa chỉ doanh nghiệp: **206 Đ. Nguyễn Thiện Thuật, Vĩnh Long** (công khai trên Google Maps)
 - **[Đã xác nhận]** Email: admin@studiominhhieu.com / support@studiominhhieu.com
 - **[Đã xác nhận]** Facebook: https://www.facebook.com/DJ.HieuDonald
 - **[Đã xác nhận]** YouTube: https://www.youtube.com/@TheFootprintAudio
 - **[Đã xác nhận]** SoundCloud: https://soundcloud.com/djhieudonald
 - **[Đã xác nhận]** DiiJam: https://play.diijam.vn/artists/3989
 - **[Đã xác nhận]** GitHub: studiozengermany-cmd
-- **[Chưa có thông tin]** TikTok, Instagram — chưa xác nhận.
-
-### Link nhạc nổi bật
-- SoundCloud: https://soundcloud.com/djhieudonald/nonstop-tro-ve-pho-cu-2024-hieudonald-mix
-- DiiJam: https://diijam.app.link/hieu-donald-nst-new-style-2024-loi-nho-hieudonald-mix-t22483
+- **[Đã xác nhận]** TikTok: tài khoản cá nhân, chưa làm thương hiệu — không liệt kê URL công khai.
+- **[Chưa có thông tin]** Instagram — sẽ bổ sung sau.
 
 ---
 
@@ -142,12 +147,12 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 
 1. ✅ Tên gọi: Minh Hiếu / producer Minh Hiếu.
 2. ✅ Khán giả: người bình dân có chí cầu tiến.
-3. ⚠️ Thành phố — chưa xác nhận.
+3. ✅ Khu vực: Vĩnh Long, Việt Nam.
 4. ✅ Facebook, YouTube, SoundCloud, DiiJam — đã có.
-5. ❓ TikTok, Instagram — chưa có.
+5. ❓ Instagram — sẽ bổ sung sau.
 6. ✅ 4 năm làm DJ.
 7. ❓ Email/form liên hệ công khai dùng cái nào.
-8. ❓ Website: một trang cuộn hay hệ tab.
+8. ✅ Website: dạng tab/route (Trang Chủ, Âm Nhạc, Tư Liệu, Dự Án, Ghi Chú, Giới Thiệu).
 
 ---
 
@@ -155,10 +160,10 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 
 **Gọi anh là Minh Hiếu** (hoặc producer Minh Hiếu). Không dùng HIEU DONALD trừ khi nhắc lịch sử.
 
-Minh Hiếu là DJ/Producer tự học 4 năm (~từ 2022), vận hành một mình. 2 năm không ngày nào ngủ hơn 4 tiếng. Triết lý: **bình dân nhưng chất lượng**. Khán giả: người bình dân có chí cầu tiến. Muốn chứng minh AI là cộng sự có giá trị.
+Minh Hiếu là DJ/Producer tự học 4 năm, ở Vĩnh Long, vận hành một mình. Địa chỉ doanh nghiệp: 206 Đ. Nguyễn Thiện Thuật, Vĩnh Long. Triết lý: bình dân nhưng chất lượng. Khán giả: người bình dân có chí cầu tiến. Muốn chứng minh AI là cộng sự có giá trị. Quan hệ với AI: win-win.
 
 **Mạng xã hội:** Facebook [DJ.HieuDonald] • YouTube [@TheFootprintAudio] • SoundCloud [djhieudonald] • DiiJam [artists/3989] • GitHub [studiozengermany-cmd]
 
-**Studio Minh Hiếu** = thương hiệu website + cộng đồng. studiominhhieu.com (đang tối ưu).
+**Studio Minh Hiếu** = thương hiệu website + cộng đồng. studiominhhieu.com (đang tối ưu). Website dạng tab: Trang Chủ / Âm Nhạc / Tư Liệu / Dự Án / Ghi Chú / Giới Thiệu.
 
 Yêu cầu với AI: chậm mà chắc, rõ từng bước, hỏi thẳng khi không hiểu, giao diện đẹp mắt trước. Không suy diễn. Không fake. Notion AI là điều phối viên bộ nhớ trung tâm.
