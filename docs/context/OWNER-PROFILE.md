@@ -1,4 +1,4 @@
-# HỒ SƠ THÔNG TIN VỀ ĐẶNG MINH HIếu
+# HỒ SƠ THÔNG TIN VỀ ĐặNG MINH HIếu
 
 **Cập nhật lần cuối: 2026-07-21 — Notion AI (dựa trên xác nhận trực tiếp từ owner)**
 
@@ -22,13 +22,17 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 - **[Đã xác nhận]** Nghệ danh DJ cũ: **HIEU DONALD** — đang trong quá trình chuyển sang dùng tên Minh Hiếu.
 - **[Đã xác nhận]** AI nên gọi là **Minh Hiếu**, không dùng HIEU DONALD trừ khi đề cập lịch sử.
 
+### Kinh nghiệm
+- **[Đã xác nhận]** Làm DJ được **4 năm** (tính đến 2026 = bắt đầu khoảng 2022).
+- **[Đã xác nhận]** Có nhiều show và ảnh thực tế nhưng chưa có thời gian cập nhật lên.
+
 ### Khu vực hoạt động
 - **[Đã xác nhận]** Việt Nam.
 - **[Chưa có thông tin]** Thành phố cụ thể.
 
 ### Nghề nghiệp và vai trò
-- **[Đã xác nhận]** DJ / Producer.
-- **[Đã xác nhận]** Đang học và làm: AI, code, xây dựng thương hiệu, làm Godusser. [Chưa có thông tin] Godusser là gì chính xác.
+- **[Đã xác nhận]** DJ / Producer. 4 năm kinh nghiệm.
+- **[Đã xác nhận]** Đang học và làm: AI, code, xây dựng thương hiệu, làm Godusser.
 - **[Đã xác nhận]** Hoạt động một mình. 2 năm gần đây không ngày nào ngủ hơn 4 tiếng.
 
 ### Giới thiệu bản thân
@@ -55,15 +59,15 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 - **[Đã xác nhận]** Thể loại: Vinahouse, remix, DJ/electronic.
 - **[Đã xác nhận]** Công cụ chính: FL Studio.
 - **[Đã xác nhận]** Địa điểm: Guest DJ tại Six T Club 12/03/2024.
-- **[Chưa có thông tin]** Năm bắt đầu làm DJ/Producer.
-- **[Chưa có thông tin]** Show/địa điểm khác.
+- **[Đã xác nhận]** Có nhiều show và ảnh thực tế — chưa có thời gian đăng lên.
 - **[Đã xác nhận]** Bản nhạc: "Liễu Thanh Yên x J97 — Minh Hieu Remix 2K26".
+- **[Có khả năng đúng]** Bắt đầu làm DJ khoảng 2022 (dựa trên 4 năm tính đến 2026).
 
 ---
 
 ## D. CÔNG NGHỆ VÀ DỰ ÁN
 
-- **[Đã xác nhận]** **studio-minh-hieu**: Website chính thức — React + TS + Vite + Supabase + Vercel.
+- **[Đã xác nhận]** **studio-minh-hieu**: Website chính thức — React + TS + Vite + Supabase + Vercel. Đang tối ưu, còn nhiều điểm chưa vừa ý.
 - **[Đã xác nhận]** **SampleGuard FL**: Tool local-first quản lý sample FL Studio. Trạng thái: Prototype.
 - **[Đã xác nhận]** **MH-Quantum-Inspector**: Chrome extension (Manifest V3).
 - **[Đã xác nhận]** Nhiều dự án phục vụ cả dân code lẫn anh em làm nhạc.
@@ -73,7 +77,7 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 
 ## E. WEBSITE VÀ KHÁN GIẢ
 
-- **[Đã xác nhận]** URL: https://studiominhhieu.com/
+- **[Đã xác nhận]** URL: https://studiominhhieu.com/ — **đang trong quá trình tối ưu**.
 - **[Đã xác nhận]** Mục đích: lưu trữ sống cho nhạc, tư liệu, dự án, ghi chú workflow.
 
 ### Khán giả mục tiêu
@@ -130,26 +134,28 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 
 ---
 
-## H. TÀI SẢN
+## H. TÀI SẢN VÀ KÊnh trỨC HỆ SINH THÁI
 
-- **[Đã xác nhận]** Website: https://studiominhhieu.com/
+- **[Đã xác nhận]** Website: https://studiominhhieu.com/ (đang tối ưu)
 - **[Đã xác nhận]** Email: admin@studiominhhieu.com / support@studiominhhieu.com
-- **[Chưa có thông tin]** URL mạng xã hội chính thức.
+- **[Đã xác nhận]** Facebook: https://www.facebook.com/DJ.HieuDonald
+- **[Đã xác nhận]** YouTube: https://www.youtube.com/@TheFootprintAudio
 - **[Đã xác nhận]** GitHub: studiozengermany-cmd
+- **[Chưa có thông tin]** TikTok, SoundCloud, Instagram — chưa xác nhận.
 
 ---
 
 ## I. CÂU HỊI CÒN LẠI (chưa có thông tin)
 
-1. ✅ Tên gọi: Minh Hiếu / producer Minh Hiếu. Studio Minh Hiếu = website + cộng đồng.
-2. ✅ Khán giả: người bình dân có chí cầu tiến, cả dân code lẫn làm nhạc.
+1. ✅ Tên gọi: Minh Hiếu / producer Minh Hiếu.
+2. ✅ Khán giả: người bình dân có chí cầu tiến.
 3. ⚠️ Khu vực: Việt Nam — thành phố chưa xác nhận.
-4. ❓ URL mạng xã hội chính thức — chưa có.
-5. ❓ Năm bắt đầu làm DJ/Producer — chưa có.
-6. ❓ Show/địa điểm khác ngoài Six T Club — chưa có.
-7. ❓ Email/form liên hệ công khai nên dùng cái nào — chưa chốt.
-8. ✅ Ưu tiên 3 tháng: giải quyết vấn đề tồn động AI → hoàn thiện dự án.
-9. ✅ Mục tiêu 6–12 tháng: win-win với AI, chia sẻ cho người bình dân. Chưa có mục doanh thu.
+4. ✅ Facebook: https://www.facebook.com/DJ.HieuDonald
+5. ✅ YouTube: https://www.youtube.com/@TheFootprintAudio
+6. ❓ TikTok, SoundCloud, Instagram — chưa có.
+7. ✅ 4 năm làm DJ (~bắt đầu 2022).
+8. ❓ Show/địa điểm khác ngoài Six T Club — chưa có (có nhiều nhưng chưa cập nhật).
+9. ❓ Email/form liên hệ công khai — chưa chốt.
 10. ❓ Website: một trang cuộn hay hệ tab — chưa chốt.
 
 ---
@@ -158,10 +164,12 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 
 **Gọi anh là Minh Hiếu** (hoặc producer Minh Hiếu). Không dùng HIEU DONALD trừ khi nhắc lịch sử.
 
-Minh Hiếu là DJ/Producer tự học, vận hành một mình. 2 năm không ngày nào ngủ hơn 4 tiếng. Triết lý: **bình dân nhưng chất lượng**. Khán giả: người bình dân có chí cầu tiến, điều kiện chưa có nhiều — giống như anh. Không nhắm thượng lưu. Muốn chứng minh AI là cộng sự có giá trị. Quan hệ với AI: win-win.
+Minh Hiếu là DJ/Producer tự học 4 năm, vận hành một mình. 2 năm không ngày nào ngủ hơn 4 tiếng. Triết lý: **bình dân nhưng chất lượng**. Khán giả: người bình dân có chí cầu tiến, điều kiện chưa có nhiều. Không nhắm thượng lưu. Muốn chứng minh AI là cộng sự có giá trị. Quan hệ với AI: win-win.
 
-**Studio Minh Hiếu** = thương hiệu website + cộng đồng. studiominhhieu.com. Không công ty.
+**Studio Minh Hiếu** = thương hiệu website + cộng đồng. studiominhhieu.com (đang tối ưu).
 
-Ưu tiên 3 tháng: giải quyết vấn đề tồn động AI → hoàn thiện dự án. Hiện tại chưa biết kiếm tiền và chưa phải ưu tiên.
+Mạng xã hội: Facebook [DJ.HieuDonald], YouTube [@TheFootprintAudio], GitHub [studiozengermany-cmd].
 
-Yêu cầu với AI: **chậm mà chắc, rõ từng bước, hỏi thẳng khi không hiểu, giao diện phải đẹp mắt trước**. Không suy diễn. Không fake. Không báo xong khi chưa có bằng chứng. Notion AI là điều phối viên bộ nhớ trung tâm.
+Ưu tiên 3 tháng: giải quyết vấn đề tồn động AI → hoàn thiện dự án. Chưa biết kiếm tiền và chưa phải ưu tiên.
+
+Yêu cầu với AI: **chậm mà chắc, rõ từng bước, hỏi thẳng khi không hiểu, giao diện phải đẹp mắt trước**. Không suy diễn. Không fake. Notion AI là điều phối viên bộ nhớ trung tâm.
