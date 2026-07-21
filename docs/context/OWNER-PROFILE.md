@@ -82,15 +82,8 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 
 - **[Đã xác nhận]** URL: https://studiominhhieu.com/ — **đang trong quá trình tối ưu**.
 - **[Đã xác nhận]** Tagline hiện tại: *"Âm nhạc và công cụ, làm bởi Minh Hiếu. Lưu trữ bản mix, ghi chú workflow và trạng thái các dự án MH."*
-- **[Đã xác nhận]** Ngôn ngữ: **VI / EN** (có toggle).
-- **[Đã xác nhận]** Cấu trúc **dạng tab/route** (không phải một trang cuộn):
-  - Trang Chủ
-  - Âm Nhạc
-  - Tư Liệu
-  - Dự Án
-  - Ghi Chú
-  - Giới Thiệu
-  - Đăng Nhập
+- **[Đã xác nhận]** Ngôn ngữ: VI / EN (có toggle).
+- **[Đã xác nhận]** Cấu trúc **dạng tab/route**: Trang Chủ / Âm Nhạc / Tư Liệu / Dự Án / Ghi Chú / Giới Thiệu / Đăng Nhập.
 - **[Đã xác nhận]** CTA chính: *Nghe bản mới nhất* • *Xem hệ sinh thái MH →*
 
 ### Khán giả mục tiêu
@@ -131,28 +124,24 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 ## H. TÀI SẢN VÀ KIếN TRÚC HỆ SINH THÁI
 
 - **[Đã xác nhận]** Website: https://studiominhhieu.com/
-- **[Đã xác nhận]** Địa chỉ doanh nghiệp: **206 Đ. Nguyễn Thiện Thuật, Vĩnh Long** (công khai trên Google Maps)
+- **[Đã xác nhận]** Địa chỉ doanh nghiệp (công khai): **Vĩnh Long, Việt Nam**
+  - Google Maps (chính xác, do owner xác nhận): https://maps.app.goo.gl/bRnmxD1avHDAsAzk6
 - **[Đã xác nhận]** Email: admin@studiominhhieu.com / support@studiominhhieu.com
 - **[Đã xác nhận]** Facebook: https://www.facebook.com/DJ.HieuDonald
 - **[Đã xác nhận]** YouTube: https://www.youtube.com/@TheFootprintAudio
 - **[Đã xác nhận]** SoundCloud: https://soundcloud.com/djhieudonald
 - **[Đã xác nhận]** DiiJam: https://play.diijam.vn/artists/3989
 - **[Đã xác nhận]** GitHub: studiozengermany-cmd
-- **[Đã xác nhận]** TikTok: tài khoản cá nhân, chưa làm thương hiệu — không liệt kê URL công khai.
+- **[Đã xác nhận]** TikTok: tài khoản cá nhân, chưa làm thương hiệu.
 - **[Chưa có thông tin]** Instagram — sẽ bổ sung sau.
 
 ---
 
 ## I. CÂU HỊI CÒN LẠI
 
-1. ✅ Tên gọi: Minh Hiếu / producer Minh Hiếu.
-2. ✅ Khán giả: người bình dân có chí cầu tiến.
-3. ✅ Khu vực: Vĩnh Long, Việt Nam.
-4. ✅ Facebook, YouTube, SoundCloud, DiiJam — đã có.
-5. ❓ Instagram — sẽ bổ sung sau.
-6. ✅ 4 năm làm DJ.
-7. ❓ Email/form liên hệ công khai dùng cái nào.
-8. ✅ Website: dạng tab/route (Trang Chủ, Âm Nhạc, Tư Liệu, Dự Án, Ghi Chú, Giới Thiệu).
+1. ✅ Tên gọi, khán giả, khu vực, mạng xã hội chính, website cấu trúc — đầy đủ.
+2. ❓ Instagram — sẽ bổ sung sau.
+3. ❓ Email/form liên hệ công khai dùng cái nào (admin@ hay support@).
 
 ---
 
@@ -160,9 +149,11 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 
 **Gọi anh là Minh Hiếu** (hoặc producer Minh Hiếu). Không dùng HIEU DONALD trừ khi nhắc lịch sử.
 
-Minh Hiếu là DJ/Producer tự học 4 năm, ở Vĩnh Long, vận hành một mình. Địa chỉ doanh nghiệp: 206 Đ. Nguyễn Thiện Thuật, Vĩnh Long. Triết lý: bình dân nhưng chất lượng. Khán giả: người bình dân có chí cầu tiến. Muốn chứng minh AI là cộng sự có giá trị. Quan hệ với AI: win-win.
+Minh Hiếu là DJ/Producer tự học 4 năm, ở Vĩnh Long. Vận hành một mình. Triết lý: bình dân nhưng chất lượng. Khán giả: người bình dân có chí cầu tiến. Muốn chứng minh AI là cộng sự có giá trị. Quan hệ với AI: win-win.
 
 **Mạng xã hội:** Facebook [DJ.HieuDonald] • YouTube [@TheFootprintAudio] • SoundCloud [djhieudonald] • DiiJam [artists/3989] • GitHub [studiozengermany-cmd]
+
+**Địa chỉ doanh nghiệp:** Vĩnh Long — Google Maps: https://maps.app.goo.gl/bRnmxD1avHDAsAzk6
 
 **Studio Minh Hiếu** = thương hiệu website + cộng đồng. studiominhhieu.com (đang tối ưu). Website dạng tab: Trang Chủ / Âm Nhạc / Tư Liệu / Dự Án / Ghi Chú / Giới Thiệu.
 
