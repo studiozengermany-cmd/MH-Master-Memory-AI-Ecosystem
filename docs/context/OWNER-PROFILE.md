@@ -61,7 +61,11 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 - **[Đã xác nhận]** Địa điểm: Guest DJ tại Six T Club 12/03/2024.
 - **[Đã xác nhận]** Có nhiều show và ảnh thực tế — chưa có thời gian đăng lên.
 - **[Đã xác nhận]** Bản nhạc: "Liễu Thanh Yên x J97 — Minh Hieu Remix 2K26".
-- **[Có khả năng đúng]** Bắt đầu làm DJ khoảng 2022 (dựa trên 4 năm tính đến 2026).
+- **[Đã xác nhận]** Bắt đầu làm DJ khoảng 2022 (4 năm tính đến 2026).
+
+### Nhạc nổi bật trên SoundCloud
+- **[Đã xác nhận]** Nonstop "Trở Về Phố Cũ 2024 — HieuDonald Mix"
+- **[Đã xác nhận]** NST "New Style 2024 — Lời Nhớ — HieuDonald Mix" (trên DiiJam)
 
 ---
 
@@ -81,82 +85,69 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 - **[Đã xác nhận]** Mục đích: lưu trữ sống cho nhạc, tư liệu, dự án, ghi chú workflow.
 
 ### Khán giả mục tiêu
-- **[Đã xác nhận]** Nhóm chính: **người bình dân có chí cầu tiến** — chịu khó học hỏi, tìm tòi, nhưng điều kiện chưa có nhiều. Giống như hoàn cảnh của anh.
-- **[Đã xác nhận]** Không nhắm tới: người có nhiều tiền, thượng lưu, giới học thức chuyên môn.
+- **[Đã xác nhận]** Nhóm chính: **người bình dân có chí cầu tiến** — chịu khó học hỏi, tìm tòi, nhưng điều kiện chưa có nhiều.
+- **[Đã xác nhận]** Không nhắm tới: người có nhiều tiền, thượng lưu.
 - **[Đã xác nhận]** Cả **dân code** lẫn **anh em làm nhạc** đều là đối tượng.
-- **[Đã xác nhận]** Hiện tại chưa tập trung monetize. Ưu tiên: tự dùng được, vừa ý → sau đó mới chia sẻ.
-
-### Hành động chính mong muốn
-- **[Đã xác nhận]** Nghe nhạc → xem dự án → xem tư liệu → đọc ghi chú → liên hệ.
+- **[Đã xác nhận]** Hiện tại chưa tập trung monetize.
 
 ---
 
 ## F. MỤC TIÊU CÔNG VIỆC
 
 ### Mục tiêu 3 tháng
-- **[Đã xác nhận]** **Giải quyết vấn đề tồn động mà AI hay mắc phải** — đây là ưu tiên số một.
-- **[Đã xác nhận]** Sau đó: hoàn thiện các dự án đang có. Cập nhật tốt lên từng ngày.
-
-### Mục tiêu 6–12 tháng
-- **[Đã xác nhận]** Xây dựng hệ sinh thái **win-win với AI**. Không có mục tiêu doanh thu cụ thể — chưa biết kiếm tiền và chưa phải ưu tiên.
-- **[Đã xác nhận]** Chia sẻ những đúc kết từ trải nghiệm thật đến người bình dân có hoàn cảnh tương tự.
+- **[Đã xác nhận]** Giải quyết vấn đề tồn động mà AI hay mắc phải — ưu tiên số 1.
+- **[Đã xác nhận]** Sau đó: hoàn thiện các dự án đang có.
 
 ### Khó khăn hiện tại
 - **[Đã xác nhận]** Đang làm nhiều mảng một lúc. Ngân sách hạn chế. Chưa biết kiếm tiền từ dự án.
-- **[Đã xác nhận]** Rủi ro chính: AI làm sai phạm vi, thay đổi tài sản đã duyệt, báo cáo sai trạng thái.
 
 ---
 
 ## G. PHONG CÁCH LÀM VIỆC VỚI AI
 
-### Giao tiếp
 - **[Đã xác nhận]** Tiếng Việt, thẳng, rõ, tập trung kết quả.
-- **[Đã xác nhận]** **Hỏi thẳng khi không hiểu** — không sợ mất lòng, không suy diễn bừa. Suy diễn = làm tầm bậy.
-- **[Đã xác nhận]** Không cần làm nhanh — cần **chậm mà chắc, rõ ràng từng bước**.
-- **[Đã xác nhận]** Khi báo hoàn thành phải có bằng chứng thật (link, commit, file, log).
-
-### AI là đồng quản lý
-- **[Đã xác nhận]** Quan hệ: **win-win**. AI chủ động, làm được trong scope, báo cáo sau.
-- **[Đã xác nhận]** Chỉ hỏi owner ở điểm thật sự cần quyết định. Không hỏi để hỏi.
-- **[Đã xác nhận]** Không thoái thác bằng lý do "không tự ý làm" — phải đi kèm lộ trình giải quyết.
-
-### Yêu cầu chất lượng
-- **[Đã xác nhận]** **Giao diện phải đẹp mắt trước — cảm nhận đầu tiên quan trọng**. Nhìn hài lòng mới dùng.
-- **[Đã xác nhận]** Tiêu chuẩn: anh tự trải nghiệm và vừa ý → mới đem chia sẻ. Anh là người dùng khó tính nhất.
-- **[Đã xác nhận]** Giá trị thực sự > đánh bóng. Không fake UI, fake data, fake báo cáo.
-- **[Đã xác nhận]** Không cần nhanh — cần đúng và rõ.
+- **[Đã xác nhận]** **Hỏi thẳng khi không hiểu**. Không suy diễn.
+- **[Đã xác nhận]** **Chậm mà chắc, rõ từng bước**. Không cần nhanh.
+- **[Đã xác nhận]** Báo hoàn thành phải có bằng chứng (link, commit, log).
+- **[Đã xác nhận]** **Giao diện phải đẹp mắt trước** — cảm nhận đầu tiên quan trọng.
+- **[Đã xác nhận]** Quan hệ win-win. AI chủ động, làm trong scope, báo sau.
+- **[Đã xác nhận]** Không fake UI, fake data, fake báo cáo.
 
 ### Những việc AI phải hỏi trước
-- **[Đã xác nhận]** Xóa, reset, ghi đè, đổi tên hàng loạt — bất kỳ thao tác có thể mất dữ liệu.
-- **[Đã xác nhận]** Tải/cài phần mềm, dùng API trả phí, tạo chi phí.
-- **[Đã xác nhận]** Commit/push/deploy lên public khi chưa được giao rõ.
-- **[Đã xác nhận]** Thay đổi hero, logo, brand, font, palette, nội dung đã duyệt.
+- Xóa, reset, ghi đè, đổi tên hàng loạt.
+- Tải/cài phần mềm, dùng API trả phí.
+- Commit/push/deploy chưa được giao rõ.
+- Thay đổi hero, logo, brand, font, palette, nội dung đã duyệt.
 
 ---
 
-## H. TÀI SẢN VÀ KÊnh trỨC HỆ SINH THÁI
+## H. TÀI SẢN VÀ KIếN TRÚC HỆ SINH THÁI
 
-- **[Đã xác nhận]** Website: https://studiominhhieu.com/ (đang tối ưu)
+- **[Đã xác nhận]** Website: https://studiominhhieu.com/
 - **[Đã xác nhận]** Email: admin@studiominhhieu.com / support@studiominhhieu.com
 - **[Đã xác nhận]** Facebook: https://www.facebook.com/DJ.HieuDonald
 - **[Đã xác nhận]** YouTube: https://www.youtube.com/@TheFootprintAudio
+- **[Đã xác nhận]** SoundCloud: https://soundcloud.com/djhieudonald
+- **[Đã xác nhận]** DiiJam: https://play.diijam.vn/artists/3989
 - **[Đã xác nhận]** GitHub: studiozengermany-cmd
-- **[Chưa có thông tin]** TikTok, SoundCloud, Instagram — chưa xác nhận.
+- **[Chưa có thông tin]** TikTok, Instagram — chưa xác nhận.
+
+### Link nhạc nổi bật
+- SoundCloud: https://soundcloud.com/djhieudonald/nonstop-tro-ve-pho-cu-2024-hieudonald-mix
+- DiiJam: https://diijam.app.link/hieu-donald-nst-new-style-2024-loi-nho-hieudonald-mix-t22483
 
 ---
 
-## I. CÂU HỊI CÒN LẠI (chưa có thông tin)
+## I. CÂU HỊI CÒN LẠI
 
 1. ✅ Tên gọi: Minh Hiếu / producer Minh Hiếu.
 2. ✅ Khán giả: người bình dân có chí cầu tiến.
-3. ⚠️ Khu vực: Việt Nam — thành phố chưa xác nhận.
-4. ✅ Facebook: https://www.facebook.com/DJ.HieuDonald
-5. ✅ YouTube: https://www.youtube.com/@TheFootprintAudio
-6. ❓ TikTok, SoundCloud, Instagram — chưa có.
-7. ✅ 4 năm làm DJ (~bắt đầu 2022).
-8. ❓ Show/địa điểm khác ngoài Six T Club — chưa có (có nhiều nhưng chưa cập nhật).
-9. ❓ Email/form liên hệ công khai — chưa chốt.
-10. ❓ Website: một trang cuộn hay hệ tab — chưa chốt.
+3. ⚠️ Thành phố — chưa xác nhận.
+4. ✅ Facebook, YouTube, SoundCloud, DiiJam — đã có.
+5. ❓ TikTok, Instagram — chưa có.
+6. ✅ 4 năm làm DJ.
+7. ❓ Email/form liên hệ công khai dùng cái nào.
+8. ❓ Website: một trang cuộn hay hệ tab.
 
 ---
 
@@ -164,12 +155,10 @@ Tài liệu này không chứa mật khẩu, API key, giấy tờ tùy thân, ng
 
 **Gọi anh là Minh Hiếu** (hoặc producer Minh Hiếu). Không dùng HIEU DONALD trừ khi nhắc lịch sử.
 
-Minh Hiếu là DJ/Producer tự học 4 năm, vận hành một mình. 2 năm không ngày nào ngủ hơn 4 tiếng. Triết lý: **bình dân nhưng chất lượng**. Khán giả: người bình dân có chí cầu tiến, điều kiện chưa có nhiều. Không nhắm thượng lưu. Muốn chứng minh AI là cộng sự có giá trị. Quan hệ với AI: win-win.
+Minh Hiếu là DJ/Producer tự học 4 năm (~từ 2022), vận hành một mình. 2 năm không ngày nào ngủ hơn 4 tiếng. Triết lý: **bình dân nhưng chất lượng**. Khán giả: người bình dân có chí cầu tiến. Muốn chứng minh AI là cộng sự có giá trị.
+
+**Mạng xã hội:** Facebook [DJ.HieuDonald] • YouTube [@TheFootprintAudio] • SoundCloud [djhieudonald] • DiiJam [artists/3989] • GitHub [studiozengermany-cmd]
 
 **Studio Minh Hiếu** = thương hiệu website + cộng đồng. studiominhhieu.com (đang tối ưu).
 
-Mạng xã hội: Facebook [DJ.HieuDonald], YouTube [@TheFootprintAudio], GitHub [studiozengermany-cmd].
-
-Ưu tiên 3 tháng: giải quyết vấn đề tồn động AI → hoàn thiện dự án. Chưa biết kiếm tiền và chưa phải ưu tiên.
-
-Yêu cầu với AI: **chậm mà chắc, rõ từng bước, hỏi thẳng khi không hiểu, giao diện phải đẹp mắt trước**. Không suy diễn. Không fake. Notion AI là điều phối viên bộ nhớ trung tâm.
+Yêu cầu với AI: chậm mà chắc, rõ từng bước, hỏi thẳng khi không hiểu, giao diện đẹp mắt trước. Không suy diễn. Không fake. Notion AI là điều phối viên bộ nhớ trung tâm.
