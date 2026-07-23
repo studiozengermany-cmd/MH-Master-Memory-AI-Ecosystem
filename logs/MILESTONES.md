@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 11:32] — ChatGPT/Codex — TASK-20260723-1118-CODEX-TASK-LEDGER — Cờ master
+
+- Mục tiêu phiên: Bổ sung cách phân biệt việc nhỏ/lớn và cờ cưỡng bức lưu tác vụ theo yêu cầu trực tiếp của Đặng Minh Hiếu.
+- Đã làm: Quy định việc nhỏ chỉ khi mọi điều kiện an toàn đều đạt; nếu không chắc thì là việc lớn; nhận `/master`, `- master`, `• master` làm cờ buộc lưu và đồng bộ tác vụ hiện tại trước bước tiếp theo.
+- Trạng thái: Một phần — nội dung và diff đã được kiểm tra; Task ID vẫn chưa được chủ sở hữu nghiệm thu.
+- Bằng chứng: Cờ `/master` trong yêu cầu ngày 2026-07-23 và diff của cùng Task ID.
+- Còn dở / rủi ro: Gemini toàn cục trong `.gemini` chưa được nối; cờ chỉ có hiệu lực với AI đọc bản Master Memory mới.
+- Bước tiếp theo đề xuất: Push GitHub `main`, rồi chờ chủ sở hữu nghiệm thu Task ID.
+- Lưu ý cho AI sau: Cờ `master` buộc lưu tác vụ, nhưng không tự cấp quyền sửa sản phẩm, xóa, deploy hoặc phát sinh chi phí.
+
 ### [2026-07-23 11:18] — ChatGPT/Codex — TASK-20260723-1118-CODEX-TASK-LEDGER
 
 - Mục tiêu phiên: Tạo sổ ký bắt buộc để mọi AI/agent đăng ký tác vụ lớn và không tự tuyên bố hoàn thành trước khi Đặng Minh Hiếu nghiệm thu.

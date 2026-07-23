@@ -2,14 +2,25 @@
 
 > Chỉ đọc mục **Đang làm / Chờ duyệt** khi bắt đầu phiên. Lịch sử dài nằm trong `logs/MILESTONES.md`.
 
-## Khi nào bắt buộc ký
+## Phân biệt việc nhỏ và việc lớn
 
-Ký trước khi làm nếu có ít nhất một điều kiện:
+**Việc nhỏ** chỉ khi đồng thời thỏa tất cả:
 
-- Tác vụ thuộc Tier 2 hoặc Tier 3.
-- Sửa từ 2 file thật trở lên, hoặc đổi hành vi, dữ liệu hay kiến trúc.
-- Có commit, push, deploy, chi phí hoặc ghi ra hệ thống bên ngoài.
-- Có nhiều agent, kéo dài qua nhiều phiên, hoặc được chủ sở hữu đánh dấu là quan trọng.
+- Tier 0 hoặc Tier 1; chỉ đọc hoặc tối đa 1 file trong phạm vi đã giao.
+- Không đổi hành vi, dữ liệu, kiến trúc hay tài sản đã khóa.
+- Không commit, push, deploy, phát sinh chi phí hoặc ghi ra hệ thống bên ngoài.
+- Một AI làm trong một phiên và không có cờ `master`.
+
+**Việc lớn** nếu có ít nhất một dấu hiệu ngược lại, thuộc Tier 2/3, không chắc cách phân loại, hoặc có cờ `master`.
+
+## Cờ `master`
+
+- Nhận cờ khi một dòng bắt đầu bằng `/master`, `- master` hoặc `• master` (không phân biệt hoa thường).
+- Cờ này buộc AI lưu ngay tác vụ hiện tại vào sổ trước hành động tiếp theo, dù tác vụ vốn nhỏ.
+- Nếu Task ID phù hợp đã có, cập nhật đúng entry đó; không tạo bản ghi trùng.
+- Phải lưu ngắn: đang làm gì, đã làm gì, file/phạm vi, trạng thái, bằng chứng và bước tiếp theo.
+- Cờ `master` cho phép cập nhật và đồng bộ riêng `TASK-LEDGER.md` cùng Milestone lên Master Memory; không tự cấp quyền sửa sản phẩm, xóa, deploy hoặc phát sinh chi phí.
+- Nếu bị khóa hoặc không thể đồng bộ an toàn, báo `MASTER CHƯA ĐỒNG BỘ`; không được nói đã lưu.
 
 ## Luật
 
@@ -53,13 +64,13 @@ Ký trước khi làm nếu có ít nhất một điều kiện:
 - Model: GPT-5
 - Dự án / workspace: MH Master Memory
 - Bắt đầu: 2026-07-23 11:18 ICT
-- Mục tiêu: Tạo sổ ký bắt buộc cho tác vụ lớn và nối vào các điểm vào AI.
+- Mục tiêu: Tạo sổ ký bắt buộc, phân loại việc nhỏ/lớn và hỗ trợ cờ cưỡng bức lưu `master`.
 - Phạm vi: `TASK-LEDGER.md`, `AGENTS.md`, `AI-BOOTSTRAP.md`, `GEMINI.md`, `LOVABLE.md`, `README.md`, `logs/MILESTONES.md`
 - Risk Tier: Tier 2 — thay đổi luật chung và push GitHub `main`
 - Trạng thái: CHỜ ANH DUYỆT
-- Kết thúc thi công: 2026-07-23 11:21 ICT
-- Đã thay đổi: Tạo sổ ký và nối quy tắc vào các điểm vào của Codex, Gemini, Claude qua `AGENTS.md`, và Lovable.
-- Bằng chứng: Diff đúng 7 file; kiểm tra liên kết và `git diff --check` đạt.
+- Kết thúc thi công: 2026-07-23 11:34 ICT
+- Đã thay đổi: Tạo sổ ký; nối vào các điểm vào AI; thêm tiêu chí nhỏ/lớn và cờ `/master`, `- master`, `• master`.
+- Bằng chứng: Commit `9047a82` cho bản đầu; cờ `/master` của chủ sở hữu; diff đúng 7 file và `git diff --check` đạt.
 - Chủ sở hữu duyệt: Chưa
 - Thời gian duyệt:
 - Còn dở / rủi ro: Chờ Đặng Minh Hiếu nghiệm thu; Gemini toàn cục trong `.gemini` chưa được nối.

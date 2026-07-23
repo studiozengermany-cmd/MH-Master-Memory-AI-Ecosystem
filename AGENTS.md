@@ -17,6 +17,8 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 
 ## Cổng ký tác vụ lớn
 
+- Nếu yêu cầu có dòng `/master`, `- master` hoặc `• master`, phải lưu tác vụ hiện tại theo mục **Cờ master** trong `TASK-LEDGER.md` trước hành động tiếp theo.
+- Việc nhỏ chỉ khi thỏa toàn bộ điều kiện trong `TASK-LEDGER.md`; nếu không chắc, xếp là việc lớn.
 - Tác vụ lớn phải được đăng ký trong `TASK-LEDGER.md` trước khi ghi file.
 - Nếu Task ID phù hợp đã tồn tại, tiếp tục đúng mục tiêu và phạm vi của entry đó; không tạo tác vụ trùng.
 - AI chính ghi tên mọi agent/subagent và phần việc được giao để giữ một người viết sổ.

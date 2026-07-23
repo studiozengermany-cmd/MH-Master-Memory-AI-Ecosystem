@@ -85,7 +85,7 @@ MH-Master-Memory-AI-Ecosystem/
 4. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
 5. Đọc `AI-BOOTSTRAP.md`, `AI-ROLES.md` và tự động phân loại công việc theo `docs/core/RISK-TIERS.md` trước khi hành động.
 6. Chỉ đọc các tài liệu sâu liên quan; nhiệm vụ giao diện mới bắt buộc đọc `PRODUCT-UI-STANDARD.md`.
-7. Tác vụ lớn phải ký trước khi ghi file và chỉ được ghi hoàn thành sau khi Đặng Minh Hiếu nghiệm thu rõ.
+7. Tác vụ lớn phải ký trước khi ghi file; cờ `/master`, `- master` hoặc `• master` buộc lưu ngay cả việc nhỏ. Chỉ được ghi hoàn thành sau khi Đặng Minh Hiếu nghiệm thu rõ.
 8. Thực thi, kiểm thử và lưu bằng chứng thật.
 9. Kết thúc bằng cập nhật Task ID và một Milestone Entry trong `logs/MILESTONES.md`.
 
