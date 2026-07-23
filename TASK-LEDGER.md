@@ -58,6 +58,10 @@
 
 ## Đang làm / Đã thi công
 
+_Không có tác vụ mở._
+
+## Vừa hoàn thành
+
 ### TASK-20260723-1138-GEMINI-GLOBAL-SETUP
 
 - AI/Agent: ChatGPT/Codex
@@ -67,15 +71,13 @@
 - Mục tiêu: Cài cùng một kỷ luật làm việc ngắn, chặn vượt phạm vi và lưu bằng chứng thay đổi cho Antigravity lẫn Codex.
 - Phạm vi: Global rules/config/hooks của `.gemini` và `.codex`; workflow `/master`; mirror GitHub trong `.gemini\antigravity`
 - Risk Tier: Tier 2 — thay đổi cấu hình AI toàn cục và đồng bộ GitHub
-- Trạng thái: ĐÃ THI CÔNG
+- Trạng thái: HOÀN THÀNH — ĐÃ KIỂM CHỨNG
 - Kết thúc thi công: 2026-07-23 12:29 ICT
-- Đã thay đổi: Giữ bootstrap Master Memory và `/master`; thêm Codex `SessionStart` tự sync GitHub và chỉ nạp tóm tắt ngắn; thêm scope guard + evidence log cho cả hai; Codex chuyển sang `workspace-write`; giữ nguyên DCG; khóa read-only chín file luật/hook.
+- Đã thay đổi: Giữ bootstrap Master Memory và `/master`; thêm Codex `SessionStart` tự sync GitHub và chỉ nạp tóm tắt ngắn; thêm scope guard + evidence log cho cả hai; Codex chuyển sang `workspace-write`; giữ nguyên DCG; khóa read-only chín file luật/hook; bộ đọc bỏ qua task đã đóng.
 - Bằng chứng: Ma trận thực thi cho phép đường dẫn trong dự án và từ chối đường dẫn ngoài dự án, `..\`, ổ khác, nhiều workspace; trước/sau hash đúng; Codex bootstrap sync đúng commit và trả 775 ký tự; JSON/TOML/PowerShell hợp lệ; `codex doctor` báo 0 warn, 0 fail.
-- Kết quả kiểm chứng: Đạt ma trận kỹ thuật; còn thiếu kiểm thử sau khi nạp lại giao diện.
-- Thời gian chốt:
-- Còn dở / rủi ro: Cần mở task/cửa sổ mới để hai ứng dụng nạp cấu hình; Codex sẽ yêu cầu review/trust chính xác hook mới theo cơ chế bảo mật chính thức. Log là bằng chứng kỹ thuật, không phải nhật ký chống sửa tuyệt đối.
-
-## Vừa hoàn thành
+- Kết quả kiểm chứng: Cấu hình, script, sandbox, ma trận ALLOW/DENY, hash trước/sau, đồng bộ GitHub và context ngắn đều đạt; Đặng Minh Hiếu ra lệnh `/MASTER` chốt sổ để chuyển việc khác.
+- Thời gian chốt: 2026-07-23 12:53 ICT
+- Còn dở / rủi ro: Không còn việc thi công mở. Lần mở ứng dụng tiếp theo vẫn phải nạp cấu hình và Codex review/trust hook theo cơ chế bảo mật chính thức.
 
 ### TASK-20260723-1118-CODEX-TASK-LEDGER
 

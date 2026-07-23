@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 12:53] — ChatGPT/Codex — TASK-20260723-1138-GEMINI-GLOBAL-SETUP — Chốt sổ `/MASTER`
+
+- Mục tiêu phiên: Chốt toàn bộ việc cài quy tắc AI để chuyển sang công việc khác, không để Task ID treo.
+- Đã làm: Chuyển task cài Antigravity thường, Antigravity IDE và Codex trong ChatGPT sang `HOÀN THÀNH — ĐÃ KIỂM CHỨNG`; mục tác vụ mở hiện trống; sửa bootstrap Gemini/Codex để không nạp lại task đã đóng.
+- Trạng thái: Tested — cấu hình, script, sandbox, scope guard, evidence log, đồng bộ GitHub và giới hạn context đã có bằng chứng kỹ thuật; chủ sở hữu ra lệnh chốt sổ.
+- Bằng chứng: Ma trận ALLOW/DENY đạt; hash trước/sau đúng; `codex doctor` 0 warn/0 fail; parser hai script đạt; bộ đọc tìm thấy đúng mục đang làm và không tìm thấy Task ID; câu lệnh trực tiếp “`/MASTER` lại để chốt sổ làm chuyện khác”.
+- Còn dở / rủi ro: Không còn việc thi công mở. Ứng dụng sẽ nạp cấu hình ở lần mở tiếp theo; Codex có thể yêu cầu review/trust hook mới một lần.
+- Bước tiếp theo đề xuất: Chuyển sang việc mới; không mở lại Task ID này trừ khi xuất hiện bằng chứng lỗi.
+- Lưu ý cho AI sau: Không tái tạo hàng chờ. Khi task mới bắt đầu, đọc `STATE.md` và chỉ phần tác vụ mở; hiện không có tác vụ mở.
+
 ### [2026-07-23 12:48] — ChatGPT/Codex — TASK-20260723-1118-CODEX-TASK-LEDGER — Bỏ hàng chờ duyệt mặc định
 
 - Mục tiêu phiên: Sửa cơ chế trạng thái để việc đã được giao và thi công xong không tiếp tục nằm trong hàng `CHỜ ANH DUYỆT`.
