@@ -69,8 +69,8 @@
 - Risk Tier: Tier 2 — thay đổi cấu hình AI toàn cục và đồng bộ GitHub
 - Trạng thái: CHỜ ANH DUYỆT
 - Kết thúc thi công: 2026-07-23 12:29 ICT
-- Đã thay đổi: Giữ bootstrap Master Memory và `/master`; thêm scope guard + evidence log cho Antigravity và Codex; Codex chuyển sang `workspace-write`; giữ nguyên DCG; khóa read-only tám file luật/hook.
-- Bằng chứng: Ma trận thực thi cho phép đường dẫn trong dự án và từ chối đường dẫn ngoài dự án, `..\`, ổ khác, nhiều workspace; trước/sau hash được ghi đúng; JSON/TOML/PowerShell hợp lệ; `codex doctor` báo 0 warn, 0 fail.
+- Đã thay đổi: Giữ bootstrap Master Memory và `/master`; thêm Codex `SessionStart` tự sync GitHub và chỉ nạp tóm tắt ngắn; thêm scope guard + evidence log cho cả hai; Codex chuyển sang `workspace-write`; giữ nguyên DCG; khóa read-only chín file luật/hook.
+- Bằng chứng: Ma trận thực thi cho phép đường dẫn trong dự án và từ chối đường dẫn ngoài dự án, `..\`, ổ khác, nhiều workspace; trước/sau hash đúng; Codex bootstrap sync đúng commit và trả 775 ký tự; JSON/TOML/PowerShell hợp lệ; `codex doctor` báo 0 warn, 0 fail.
 - Chủ sở hữu duyệt: Chưa
 - Thời gian duyệt:
 - Còn dở / rủi ro: Cần mở task/cửa sổ mới để hai ứng dụng nạp cấu hình; Codex sẽ yêu cầu review/trust chính xác hook mới theo cơ chế bảo mật chính thức. Log là bằng chứng kỹ thuật, không phải nhật ký chống sửa tuyệt đối.
