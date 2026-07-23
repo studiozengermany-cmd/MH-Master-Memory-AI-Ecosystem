@@ -3,12 +3,12 @@
 Trước khi thực hiện bất kỳ nhiệm vụ nào trong workspace này:
 
 1. Đọc `STATE.md`.
-2. Chỉ đọc mục **Đang làm / Chờ duyệt** trong `TASK-LEDGER.md`; dùng lại Task ID phù hợp, không tạo việc trùng.
+2. Chỉ đọc mục **Đang làm / Đã thi công** trong `TASK-LEDGER.md`; dùng lại Task ID phù hợp, không tạo việc trùng.
 3. Gặp dòng `/master`, `- master` hoặc `• master`: lưu và đồng bộ tác vụ hiện tại trước hành động tiếp theo.
 4. Đọc và tuân thủ `AGENTS.md` — đây là nguồn luật chung duy nhất.
 5. Đọc `AI-ROLES.md`; chỉ nạp tài liệu sâu khi nhiệm vụ cần.
 6. Tác vụ lớn phải ký trước khi ghi file; AI chính ghi tên mọi agent/subagent.
-7. Làm xong ghi `CHỜ ANH DUYỆT`; chưa có câu nghiệm thu rõ thì không được gọi là hoàn thành.
+7. Làm xong phần được giao ghi `ĐÃ THI CÔNG`; chỉ chờ khi thiếu một quyết định thật, và chỉ gọi hoàn thành khi có bằng chứng kiểm chứng.
 8. Không tự commit, push, deploy, xóa hoặc đổi cấu trúc lớn khi chưa có quyền rõ.
 9. Kết thúc phiên bằng Milestone có Task ID, trạng thái và bằng chứng thật.
 

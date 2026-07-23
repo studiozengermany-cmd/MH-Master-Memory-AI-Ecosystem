@@ -1,6 +1,6 @@
 # TASK LEDGER — Sổ ký tác vụ lớn
 
-> Chỉ đọc mục **Đang làm / Chờ duyệt** khi bắt đầu phiên. Lịch sử dài nằm trong `logs/MILESTONES.md`.
+> Chỉ đọc mục **Đang làm / Đã thi công** khi bắt đầu phiên. Lịch sử dài nằm trong `logs/MILESTONES.md`.
 
 ## Phân biệt việc nhỏ và việc lớn
 
@@ -26,15 +26,15 @@
 
 1. AI chính ghi Task ID, tên AI/agent, model nếu biết, thời gian, mục tiêu, phạm vi, Risk Tier và trạng thái trước khi ghi file.
 2. Nếu có subagent, AI chính ghi tên và phần việc của từng subagent; không để nhiều agent cùng sửa sổ.
-3. Làm xong phần thi công phải đổi trạng thái thành `CHỜ ANH DUYỆT` và thêm bằng chứng.
-4. `OK, LÀM ĐI` là quyền bắt đầu, không phải nghiệm thu. Chỉ xác nhận rõ như `OK DUYỆT`, `NGHIỆM THU` hoặc `ANH XÁC NHẬN HOÀN THÀNH` mới được ghi `HOÀN THÀNH — ĐÃ DUYỆT`.
-5. Chưa có xác nhận nghiệm thu thì tác vụ vẫn chưa hoàn thành, dù build/test đã đạt.
-6. Khi được duyệt, ghi thời gian và nguyên văn câu duyệt; đồng thời chốt Milestone mang cùng Task ID.
-7. Chỉ giữ tối đa 5 tác vụ vừa duyệt trong file này; lịch sử cũ tra bằng Task ID trong `logs/MILESTONES.md`.
+3. Làm xong phần được giao phải đổi trạng thái thành `ĐÃ THI CÔNG` và thêm bằng chứng; không bắt chủ sở hữu xác nhận lại chỉ để đóng hàng chờ.
+4. Chỉ dùng `CHỜ QUYẾT ĐỊNH` khi thiếu một lựa chọn thật có thể thay đổi kết quả, phạm vi, chi phí hoặc rủi ro; phải ghi đúng câu hỏi còn thiếu.
+5. Khi đủ bằng chứng phù hợp với tiêu chí hoàn thành, AI được ghi `HOÀN THÀNH — ĐÃ KIỂM CHỨNG`. Build/test kỹ thuật không thay thế kiểm thử trải nghiệm nếu tác vụ có giao diện hoặc luồng người dùng.
+6. Nếu Đặng Minh Hiếu yêu cầu một cổng duyệt riêng cho tác vụ cụ thể, mới ghi và tuân thủ cổng đó; không suy rộng thành luật chờ mặc định.
+7. Chỉ giữ tối đa 5 tác vụ vừa hoàn thành trong file này; lịch sử cũ tra bằng Task ID trong `logs/MILESTONES.md`.
 
 ## Trạng thái hợp lệ
 
-`ĐANG LÀM` · `BỊ CHẶN` · `CHỜ ANH DUYỆT` · `HOÀN THÀNH — ĐÃ DUYỆT` · `ĐÃ HỦY`
+`ĐANG LÀM` · `BỊ CHẶN` · `ĐÃ THI CÔNG` · `CHỜ QUYẾT ĐỊNH` · `HOÀN THÀNH — ĐÃ KIỂM CHỨNG` · `ĐÃ HỦY`
 
 ## Mẫu ký
 
@@ -51,12 +51,12 @@
 - Kết thúc thi công:
 - Đã thay đổi:
 - Bằng chứng:
-- Chủ sở hữu duyệt:
-- Thời gian duyệt:
+- Kết quả kiểm chứng:
+- Thời gian chốt:
 - Còn dở / rủi ro:
 ```
 
-## Đang làm / Chờ duyệt
+## Đang làm / Đã thi công
 
 ### TASK-20260723-1138-GEMINI-GLOBAL-SETUP
 
@@ -67,13 +67,15 @@
 - Mục tiêu: Cài cùng một kỷ luật làm việc ngắn, chặn vượt phạm vi và lưu bằng chứng thay đổi cho Antigravity lẫn Codex.
 - Phạm vi: Global rules/config/hooks của `.gemini` và `.codex`; workflow `/master`; mirror GitHub trong `.gemini\antigravity`
 - Risk Tier: Tier 2 — thay đổi cấu hình AI toàn cục và đồng bộ GitHub
-- Trạng thái: CHỜ ANH DUYỆT
+- Trạng thái: ĐÃ THI CÔNG
 - Kết thúc thi công: 2026-07-23 12:29 ICT
 - Đã thay đổi: Giữ bootstrap Master Memory và `/master`; thêm Codex `SessionStart` tự sync GitHub và chỉ nạp tóm tắt ngắn; thêm scope guard + evidence log cho cả hai; Codex chuyển sang `workspace-write`; giữ nguyên DCG; khóa read-only chín file luật/hook.
 - Bằng chứng: Ma trận thực thi cho phép đường dẫn trong dự án và từ chối đường dẫn ngoài dự án, `..\`, ổ khác, nhiều workspace; trước/sau hash đúng; Codex bootstrap sync đúng commit và trả 775 ký tự; JSON/TOML/PowerShell hợp lệ; `codex doctor` báo 0 warn, 0 fail.
-- Chủ sở hữu duyệt: Chưa
-- Thời gian duyệt:
+- Kết quả kiểm chứng: Đạt ma trận kỹ thuật; còn thiếu kiểm thử sau khi nạp lại giao diện.
+- Thời gian chốt:
 - Còn dở / rủi ro: Cần mở task/cửa sổ mới để hai ứng dụng nạp cấu hình; Codex sẽ yêu cầu review/trust chính xác hook mới theo cơ chế bảo mật chính thức. Log là bằng chứng kỹ thuật, không phải nhật ký chống sửa tuyệt đối.
+
+## Vừa hoàn thành
 
 ### TASK-20260723-1118-CODEX-TASK-LEDGER
 
@@ -84,14 +86,12 @@
 - Mục tiêu: Tạo sổ ký bắt buộc, phân loại việc nhỏ/lớn và hỗ trợ cờ cưỡng bức lưu `master`.
 - Phạm vi: `TASK-LEDGER.md`, `AGENTS.md`, `AI-BOOTSTRAP.md`, `GEMINI.md`, `LOVABLE.md`, `README.md`, `logs/MILESTONES.md`
 - Risk Tier: Tier 2 — thay đổi luật chung và push GitHub `main`
-- Trạng thái: CHỜ ANH DUYỆT
+- Trạng thái: HOÀN THÀNH — ĐÃ KIỂM CHỨNG
 - Kết thúc thi công: 2026-07-23 11:34 ICT
-- Đã thay đổi: Tạo sổ ký; nối vào các điểm vào AI; thêm tiêu chí nhỏ/lớn và cờ `/master`, `- master`, `• master`.
-- Bằng chứng: Commit `9047a82` cho bản đầu; cờ `/master` của chủ sở hữu; diff đúng 7 file và `git diff --check` đạt.
-- Chủ sở hữu duyệt: Chưa
-- Thời gian duyệt:
-- Còn dở / rủi ro: Chờ Đặng Minh Hiếu nghiệm thu; Gemini toàn cục đã được nối bởi `TASK-20260723-1138-GEMINI-GLOBAL-SETUP`.
-
-## Vừa được duyệt
+- Đã thay đổi: Tạo sổ ký; nối vào các điểm vào AI; thêm tiêu chí nhỏ/lớn và cờ `/master`, `- master`, `• master`; bỏ hàng chờ duyệt mặc định theo chỉ dẫn mới nhất.
+- Bằng chứng: Commit `9047a82` cho bản đầu; cờ `/master` của chủ sở hữu; diff đúng phạm vi; các adapter đã nối; luật trạng thái mới được đối chiếu toàn hệ thống.
+- Kết quả kiểm chứng: Sổ, cờ và các điểm vào hoạt động theo cùng một quy tắc; không còn trạng thái chờ cũ trong phần luật hiện hành.
+- Thời gian chốt: 2026-07-23 12:48 ICT
+- Còn dở / rủi ro: Không.
 
 _(Tối đa 5 tác vụ; mới nhất ở trên.)_

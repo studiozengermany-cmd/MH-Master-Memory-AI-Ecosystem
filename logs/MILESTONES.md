@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 12:48] — ChatGPT/Codex — TASK-20260723-1118-CODEX-TASK-LEDGER — Bỏ hàng chờ duyệt mặc định
+
+- Mục tiêu phiên: Sửa cơ chế trạng thái để việc đã được giao và thi công xong không tiếp tục nằm trong hàng `CHỜ ANH DUYỆT`.
+- Đã làm: Thay trạng thái mặc định sau thi công bằng `ĐÃ THI CÔNG`; thêm `CHỜ QUYẾT ĐỊNH` chỉ cho trường hợp thiếu lựa chọn thật; dùng `HOÀN THÀNH — ĐÃ KIỂM CHỨNG` khi đủ bằng chứng; cập nhật các adapter và workflow `/master`.
+- Trạng thái: Tested — nội dung hiện hành đã được đối chiếu toàn bộ; Task Ledger được chốt hoàn thành và task cài AI global chuyển sang `ĐÃ THI CÔNG`.
+- Bằng chứng: Chỉ dẫn trực tiếp mới nhất của Đặng Minh Hiếu; diff đúng các file luật/adapters; tìm kiếm lại không còn `CHỜ ANH DUYỆT` trong luật hiện hành ngoài lịch sử Milestone.
+- Còn dở / rủi ro: Lịch sử Milestone cũ vẫn giữ nguyên để không viết lại quá khứ.
+- Bước tiếp theo đề xuất: Không cần anh xác nhận lại. Task cài AI global tự chuyển hoàn thành khi có bằng chứng giao diện sau khi nạp lại.
+- Lưu ý cho AI sau: Không biến “thận trọng” thành một hàng chờ hành chính. Chỉ hỏi khi câu trả lời thật sự thay đổi quyết định hoặc rủi ro.
+
 ### [2026-07-23 12:45] — ChatGPT/Codex — TASK-20260723-1138-GEMINI-GLOBAL-SETUP — Tổng kết `/MASTER`
 
 - Mục tiêu phiên: Đối chiếu toàn bộ việc từ đầu ngày và xác định chính xác phần đã xong.

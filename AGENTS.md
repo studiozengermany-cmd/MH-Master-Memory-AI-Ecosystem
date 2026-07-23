@@ -5,7 +5,7 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 ## Thứ tự đọc bắt buộc
 
 1. `STATE.md`
-2. Mục **Đang làm / Chờ duyệt** trong `TASK-LEDGER.md`
+2. Mục **Đang làm / Đã thi công** trong `TASK-LEDGER.md`
 3. `README.md`
 4. `AI-ROLES.md`
 5. `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách làm việc
@@ -22,8 +22,9 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 - Tác vụ lớn phải được đăng ký trong `TASK-LEDGER.md` trước khi ghi file.
 - Nếu Task ID phù hợp đã tồn tại, tiếp tục đúng mục tiêu và phạm vi của entry đó; không tạo tác vụ trùng.
 - AI chính ghi tên mọi agent/subagent và phần việc được giao để giữ một người viết sổ.
-- Kết thúc thi công phải ghi `CHỜ ANH DUYỆT`; chưa có xác nhận nghiệm thu rõ của Đặng Minh Hiếu thì cấm gọi tác vụ là hoàn thành.
-- `OK, LÀM ĐI` chỉ cho phép thi công; không phải câu duyệt kết quả.
+- Kết thúc phần được giao phải ghi `ĐÃ THI CÔNG` và bằng chứng; không tạo thêm một vòng xin duyệt mặc định.
+- Chỉ ghi `CHỜ QUYẾT ĐỊNH` khi thật sự thiếu một lựa chọn của Đặng Minh Hiếu có thể làm thay đổi kết quả hoặc mức rủi ro.
+- Chỉ ghi `HOÀN THÀNH — ĐÃ KIỂM CHỨNG` khi đủ bằng chứng phù hợp; nếu còn thiếu kiểm thử giao diện hoặc trải nghiệm thật thì giữ `ĐÃ THI CÔNG` và nói rõ phần thiếu.
 
 ## Trước khi thay đổi
 
