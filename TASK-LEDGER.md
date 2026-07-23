@@ -58,6 +58,23 @@
 
 ## Đang làm / Chờ duyệt
 
+### TASK-20260723-1138-GEMINI-GLOBAL-SETUP
+
+- AI/Agent: ChatGPT/Codex
+- Model: GPT-5
+- Dự án / workspace: Google Antigravity global — `C:\Users\Minh Hieu Producer\.gemini`
+- Bắt đầu: 2026-07-23 11:38 ICT
+- Mục tiêu: Cài global rule ngắn, tự đồng bộ Master Memory có kiểm soát và workflow `/master`.
+- Phạm vi: `.gemini\GEMINI.md`, `.gemini\config\hooks.json`, hook script, global workflow và mirror GitHub trong `.gemini\antigravity`
+- Risk Tier: Tier 2 — thay đổi cấu hình AI toàn cục và đồng bộ GitHub
+- Trạng thái: ĐANG LÀM
+- Kết thúc thi công:
+- Đã thay đổi:
+- Bằng chứng:
+- Chủ sở hữu duyệt: Chưa
+- Thời gian duyệt:
+- Còn dở / rủi ro: Đang backup, thiết lập và kiểm thử; không được ghi đè cấu hình cũ thiếu backup.
+
 ### TASK-20260723-1118-CODEX-TASK-LEDGER
 
 - AI/Agent: ChatGPT/Codex
