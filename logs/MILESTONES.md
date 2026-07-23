@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 11:10] — ChatGPT/Codex — Bổ sung State, Risk Tiers và Drift Audit
+
+- Mục tiêu phiên: Thêm lớp hiện trạng, phân tầng rủi ro và kiểm tra sai lệch định kỳ vào Master Memory.
+- Đã làm: Thêm `STATE.md`, `docs/core/RISK-TIERS.md`, `docs/core/DRIFT-AUDIT.md`; nối thứ tự đọc trong `AI-BOOTSTRAP.md` và README; giữ nguyên cấu trúc `MASTER-MEMORY-SCORECARD.md`.
+- Trạng thái: Một phần — nội dung và liên kết tài liệu đã được kiểm tra; cơ chế đồng bộ tự động giữa GitHub và các máy chưa được triển khai.
+- Bằng chứng: Diff Git của sáu file trong nhánh xuất bản và commit của phiên.
+- Còn dở / rủi ro: `STATE.md` vẫn là mẫu chưa điền dữ liệu dự án; local không tự nhận thay đổi từ GitHub nếu chưa pull/sync.
+- Bước tiếp theo đề xuất: Điền nguồn sự thật hiện tại vào `STATE.md`; cấu hình từng AI đọc bản local đã cập nhật trước khi làm việc.
+- Lưu ý cho AI sau: Đọc `STATE.md` trước mọi file khác; không sửa cấu trúc `MASTER-MEMORY-SCORECARD.md`; nếu nguồn lệch hoặc không rõ người đang viết thì xử lý theo Tier 3.
+
 ### [2026-07-18 17:09] — ChatGPT/Codex — Trách nhiệm đồng hành giải quyết vấn đề
 
 - Mục tiêu phiên: Loại bỏ cách xử lý trong đó AI vin vào sự thận trọng hoặc câu “không tự ý làm” để đứng ngoài vấn đề và đẩy trách nhiệm điều phối ngược lại cho Đặng Minh Hiếu.

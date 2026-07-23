@@ -43,6 +43,7 @@ flowchart TD
 ```text
 MH-Master-Memory-AI-Ecosystem/
 ├── README.md
+├── STATE.md
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── GEMINI.md
@@ -56,8 +57,10 @@ MH-Master-Memory-AI-Ecosystem/
 │   └── install-prompt-master-windows.ps1
 ├── docs/
 │   ├── core/
+│   │   ├── DRIFT-AUDIT.md
 │   │   ├── DECISION-OPERATING-SYSTEM.md
 │   │   ├── PRODUCT-UI-STANDARD.md
+│   │   ├── RISK-TIERS.md
 │   │   └── MASTER-MEMORY-SCORECARD.md
 │   ├── context/
 │   │   ├── OWNER-PROFILE.md
@@ -76,13 +79,14 @@ MH-Master-Memory-AI-Ecosystem/
 ## Cách một AI Agent bắt đầu
 
 1. Mở repository này làm thư mục gốc hoặc cấp quyền đọc repository Private.
-2. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
-3. Đọc `AI-BOOTSTRAP.md` và `AI-ROLES.md` để biết cách kết nối, phân công và bàn giao.
-4. Đọc các tài liệu trong `docs/core/`; nếu nhiệm vụ có giao diện, bắt buộc đọc `PRODUCT-UI-STANDARD.md`.
-5. Đọc `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách giao tiếp và làm việc; chỉ đọc các hồ sơ ngữ cảnh khác khi nhiệm vụ thực sự cần.
-6. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
-7. Thực thi, kiểm thử và lưu bằng chứng thật.
-8. Kết thúc phiên bằng một Milestone Entry trong `logs/MILESTONES.md`.
+2. Đọc `STATE.md` trước mọi file khác, kể cả trước file khởi động.
+3. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
+4. Đọc `AI-BOOTSTRAP.md`, `AI-ROLES.md` và tự động phân loại công việc theo `docs/core/RISK-TIERS.md` trước khi hành động.
+5. Đọc các tài liệu còn lại trong `docs/core/`; nếu nhiệm vụ có giao diện, bắt buộc đọc `PRODUCT-UI-STANDARD.md`.
+6. Đọc `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách giao tiếp và làm việc; chỉ đọc các hồ sơ ngữ cảnh khác khi nhiệm vụ thực sự cần.
+7. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
+8. Thực thi, kiểm thử và lưu bằng chứng thật.
+9. Kết thúc phiên bằng một Milestone Entry trong `logs/MILESTONES.md`.
 
 ## Bộ khởi động đa AI
 
