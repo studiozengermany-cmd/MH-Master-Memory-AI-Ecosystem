@@ -25,6 +25,8 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 - Kết thúc phần được giao phải ghi `ĐÃ THI CÔNG` và bằng chứng; không tạo thêm một vòng xin duyệt mặc định.
 - Chỉ ghi `CHỜ QUYẾT ĐỊNH` khi thật sự thiếu một lựa chọn của Đặng Minh Hiếu có thể làm thay đổi kết quả hoặc mức rủi ro.
 - Chỉ ghi `HOÀN THÀNH — ĐÃ KIỂM CHỨNG` khi đủ bằng chứng phù hợp; nếu còn thiếu kiểm thử giao diện hoặc trải nghiệm thật thì giữ `ĐÃ THI CÔNG` và nói rõ phần thiếu.
+- Khi Đặng Minh Hiếu nói “lập bảng đối chiếu/bảng tiến độ”, bắt buộc dùng `skills/mh-progress-board/`; cập nhật một bảng duy nhất theo plan đã chốt.
+- `CHỜ NGHIỆM THU CHUỖI` là cổng đặc biệt chỉ bật khi Đặng Minh Hiếu gọi rõ; sau đó một AI/task khác review read-only trước khi chủ sở hữu chốt xanh.
 
 ## Trước khi thay đổi
 

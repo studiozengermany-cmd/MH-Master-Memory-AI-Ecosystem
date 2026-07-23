@@ -1,0 +1,7 @@
+interface:
+  display_name: "Bảng đối chiếu tiến độ"
+  short_description: "Lập bảng tiến độ có cổng nghiệm thu và review"
+  default_prompt: "Use $mh-progress-board để lập bảng đối chiếu tiến độ cho kế hoạch đã được chốt."
+
+policy:
+  allow_implicit_invocation: true

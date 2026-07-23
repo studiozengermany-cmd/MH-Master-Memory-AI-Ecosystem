@@ -58,24 +58,26 @@
 
 ## Đang làm / Đã thi công
 
+_Không có tác vụ mở._
+
+## Vừa hoàn thành
+
 ### TASK-20260723-1311-PROGRESS-BOARD-SKILL
 
 - AI/Agent: ChatGPT/Codex
 - Model: GPT-5
-- Dự án / workspace: MH Master Memory, Antigravity global và Codex trong ChatGPT
+- Dự án / workspace: MH Master Memory, Antigravity global, Codex trong ChatGPT và Claude Code
 - Bắt đầu: 2026-07-23 13:11 ICT
 - Mục tiêu: Cài skill bắt buộc lập bảng đối chiếu tiến độ khi Đặng Minh Hiếu yêu cầu, có cổng nghiệm thu theo chuỗi và review code độc lập.
-- Phạm vi: Skill nguồn trong Master Memory; bản cài Codex/Antigravity; adapter global và `mh-check-tong-the`; Task Ledger/Milestone.
+- Phạm vi: Skill nguồn trong Master Memory; bản cài Codex/Antigravity/Claude; adapter global và `mh-check-tong-the`; Task Ledger/Milestone.
 - Risk Tier: Tier 2 — thay đổi quy trình dùng chung và push GitHub `main`
-- Trạng thái: ĐANG LÀM
-- Kết thúc thi công:
-- Đã thay đổi:
-- Bằng chứng:
-- Kết quả kiểm chứng:
-- Thời gian chốt:
-- Còn dở / rủi ro:
-
-## Vừa hoàn thành
+- Trạng thái: HOÀN THÀNH — ĐÃ KIỂM CHỨNG
+- Kết thúc thi công: 2026-07-23 13:15 ICT
+- Đã thay đổi: Tạo skill `mh-progress-board`, template chuẩn, bảy trạng thái, cổng nghiệm thu chuỗi và review độc lập; cài cho Codex, Antigravity thường/IDE và Claude; nối vào luật chung cùng `mh-check-tong-the`.
+- Bằng chứng: `quick_validate.py` đạt ở bốn vị trí; ba file skill có SHA-256 giống nhau giữa nguồn và ba bản cài; không còn TODO; kiểm tra đủ ⬜ 🟨 🟦 🟪 🔍 🟥 🟩 và luật AI thi công không tự review.
+- Kết quả kiểm chứng: Skill hợp lệ, các bản cài đồng nhất và chỉ kích hoạt cổng nghiệm thu khi chủ sở hữu yêu cầu rõ.
+- Thời gian chốt: 2026-07-23 13:15 ICT
+- Còn dở / rủi ro: Ứng dụng đang mở có thể cần task/conversation mới để nhận skill mới.
 
 ### TASK-20260723-1138-GEMINI-GLOBAL-SETUP
 

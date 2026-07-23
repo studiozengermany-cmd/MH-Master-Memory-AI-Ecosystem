@@ -102,6 +102,10 @@ MH-Master-Memory-AI-Ecosystem/
 
 `skills/prompt-master/` là nguồn chuẩn để viết, sửa, audit và chuyển đổi prompt cho nhiều công cụ. ChatGPT/Codex dùng bản skill cá nhân; Claude Code có project skill trong `.claude/skills/`; Claude Code và Google Antigravity trên Windows được cài toàn cục bằng `scripts/install-prompt-master-windows.ps1`. Hướng dẫn đầy đủ nằm tại `docs/setup/PROMPT-MASTER.md`.
 
+### Skill bảng đối chiếu tiến độ
+
+`skills/mh-progress-board/` là nguồn chuẩn khi chủ sở hữu yêu cầu “lập bảng đối chiếu/bảng tiến độ”. Skill giữ một bảng theo plan đã chốt, chỉ bật cổng nghiệm thu chuỗi khi được gọi rõ và yêu cầu AI/task khác review code trước khi chốt xanh.
+
 ### Thứ tự ưu tiên thực tế
 
 1. **Google Antigravity:** môi trường thi công chính.

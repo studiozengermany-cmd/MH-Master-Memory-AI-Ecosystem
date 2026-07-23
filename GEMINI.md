@@ -12,6 +12,8 @@ Trước khi thực hiện bất kỳ nhiệm vụ nào trong workspace này:
 8. Không tự commit, push, deploy, xóa hoặc đổi cấu trúc lớn khi chưa có quyền rõ.
 9. Kết thúc phiên bằng Milestone có Task ID, trạng thái và bằng chứng thật.
 
+Khi người dùng yêu cầu lập/cập nhật bảng đối chiếu tiến độ hoặc gọi chờ nghiệm thu chuỗi, dùng skill `mh-progress-board`; không tự tô xanh và không tự review lại code mình vừa thi công.
+
 Skill toàn cục `prompt-master` được cài từ `skills/prompt-master/` theo `docs/setup/PROMPT-MASTER.md`. Chỉ dùng khi người dùng yêu cầu tạo, sửa, audit hoặc chuyển đổi prompt; không dùng nó để né việc thực thi nhiệm vụ trực tiếp.
 
 Nếu workspace đang mở là repository sản phẩm, phải đọc adapter của repository đó và chỉ dùng MH Master Memory làm bối cảnh điều hành; không trộn mã nguồn các sản phẩm vào kho này.

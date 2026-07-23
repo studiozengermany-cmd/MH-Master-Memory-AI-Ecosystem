@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 13:15] — ChatGPT/Codex — TASK-20260723-1311-PROGRESS-BOARD-SKILL
+
+- Mục tiêu phiên: Cài quy trình bắt buộc lập bảng đối chiếu khi chủ sở hữu yêu cầu, theo dõi trọn chuỗi và giao AI khác review code trước khi chốt xanh.
+- Đã làm: Tạo skill nguồn `mh-progress-board` và template `PROGRESS-BOARD.md`; cài cho Codex trong ChatGPT, Antigravity thường/IDE và Claude Code; nối vào AGENTS/GEMINI/README cùng skill `mh-check-tong-the`.
+- Trạng thái: Tested — cả bốn bản skill hợp lệ, không TODO và đồng nhất hash; bảy trạng thái cùng cổng nghiệm thu/review đã được kiểm tra.
+- Bằng chứng: `quick_validate.py` đạt 4/4; SHA-256 `SKILL.md` giống nhau tại bốn vị trí; template chứa bảng nhóm ưu tiên, bảng tổng và bảng reviewer; backup `J:\_codex_backups\progress-board-skill\20260723-131100-before`.
+- Còn dở / rủi ro: App đang mở có thể chưa tự nạp skill mới cho đến task/conversation tiếp theo.
+- Bước tiếp theo đề xuất: Khi plan đã chốt và anh nói “lập bảng đối chiếu”, tạo/cập nhật một `PROGRESS-BOARD.md`; không tự bật cổng nghiệm thu hoặc tự tô xanh.
+- Lưu ý cho AI sau: Chỉ 🟩 mới tính là `Xong`; AI thi công không được tự review; `CHỜ NGHIỆM THU CHUỖI` chỉ tồn tại khi Đặng Minh Hiếu gọi rõ.
+
 ### [2026-07-23 12:53] — ChatGPT/Codex — TASK-20260723-1138-GEMINI-GLOBAL-SETUP — Chốt sổ `/MASTER`
 
 - Mục tiêu phiên: Chốt toàn bộ việc cài quy tắc AI để chuyển sang công việc khác, không để Task ID treo.
