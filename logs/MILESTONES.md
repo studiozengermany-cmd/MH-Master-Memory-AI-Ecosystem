@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 13:17] — ChatGPT/Codex — TASK-20260723-1311-PROGRESS-BOARD-SKILL — Chủ sở hữu xác nhận
+
+- Mục tiêu phiên: Lưu xác nhận cuối của Đặng Minh Hiếu cho skill bảng đối chiếu tiến độ.
+- Đã làm: Gắn nguyên văn `ok /master` vào đúng Task ID; không tạo tác vụ mới.
+- Trạng thái: Tested — task đã hoàn thành, skill đã cài 4/4 và không còn tác vụ mở.
+- Bằng chứng: Tin nhắn trực tiếp `ok /master` lúc 2026-07-23 13:17 ICT.
+- Còn dở / rủi ro: Không.
+- Bước tiếp theo đề xuất: Chuyển sang việc mới.
+- Lưu ý cho AI sau: Khi chủ sở hữu yêu cầu bảng, dùng `mh-progress-board`; không tự bật cổng nghiệm thu hoặc tự tô xanh.
+
 ### [2026-07-23 13:15] — ChatGPT/Codex — TASK-20260723-1311-PROGRESS-BOARD-SKILL
 
 - Mục tiêu phiên: Cài quy trình bắt buộc lập bảng đối chiếu khi chủ sở hữu yêu cầu, theo dõi trọn chuỗi và giao AI khác review code trước khi chốt xanh.

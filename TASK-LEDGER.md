@@ -75,7 +75,7 @@ _Không có tác vụ mở._
 - Kết thúc thi công: 2026-07-23 13:15 ICT
 - Đã thay đổi: Tạo skill `mh-progress-board`, template chuẩn, bảy trạng thái, cổng nghiệm thu chuỗi và review độc lập; cài cho Codex, Antigravity thường/IDE và Claude; nối vào luật chung cùng `mh-check-tong-the`.
 - Bằng chứng: `quick_validate.py` đạt ở bốn vị trí; ba file skill có SHA-256 giống nhau giữa nguồn và ba bản cài; không còn TODO; kiểm tra đủ ⬜ 🟨 🟦 🟪 🔍 🟥 🟩 và luật AI thi công không tự review.
-- Kết quả kiểm chứng: Skill hợp lệ, các bản cài đồng nhất và chỉ kích hoạt cổng nghiệm thu khi chủ sở hữu yêu cầu rõ.
+- Kết quả kiểm chứng: Skill hợp lệ, các bản cài đồng nhất và chỉ kích hoạt cổng nghiệm thu khi chủ sở hữu yêu cầu rõ; Đặng Minh Hiếu xác nhận nguyên văn `ok /master`.
 - Thời gian chốt: 2026-07-23 13:15 ICT
 - Còn dở / rủi ro: Ứng dụng đang mở có thể cần task/conversation mới để nhận skill mới.
 
