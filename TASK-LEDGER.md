@@ -62,18 +62,18 @@
 
 - AI/Agent: ChatGPT/Codex
 - Model: GPT-5
-- Dự án / workspace: Google Antigravity global — `C:\Users\Minh Hieu Producer\.gemini`
+- Dự án / workspace: Antigravity global `C:\Users\Minh Hieu Producer\.gemini` và Codex global `C:\Users\Minh Hieu Producer\.codex`
 - Bắt đầu: 2026-07-23 11:38 ICT
-- Mục tiêu: Cài global rule ngắn, tự đồng bộ Master Memory có kiểm soát và workflow `/master`.
-- Phạm vi: `.gemini\GEMINI.md`, `.gemini\config\hooks.json`, hook script, global workflow và mirror GitHub trong `.gemini\antigravity`
+- Mục tiêu: Cài cùng một kỷ luật làm việc ngắn, chặn vượt phạm vi và lưu bằng chứng thay đổi cho Antigravity lẫn Codex.
+- Phạm vi: Global rules/config/hooks của `.gemini` và `.codex`; workflow `/master`; mirror GitHub trong `.gemini\antigravity`
 - Risk Tier: Tier 2 — thay đổi cấu hình AI toàn cục và đồng bộ GitHub
 - Trạng thái: CHỜ ANH DUYỆT
-- Kết thúc thi công: 2026-07-23 11:44 ICT
-- Đã thay đổi: Tạo global rule ngắn, workflow `/master`, hook sync lần gọi đầu, mirror GitHub sạch; giữ hook `dcg` và khóa read-only bốn file điều khiển.
-- Bằng chứng: PowerShell 5 chạy sync exit 0; hook đầu tiên inject 2.041 ký tự có đúng Task ID; lần sau inject 0; JSON hợp lệ; mirror khớp `origin/main`.
+- Kết thúc thi công: 2026-07-23 12:29 ICT
+- Đã thay đổi: Giữ bootstrap Master Memory và `/master`; thêm scope guard + evidence log cho Antigravity và Codex; Codex chuyển sang `workspace-write`; giữ nguyên DCG; khóa read-only tám file luật/hook.
+- Bằng chứng: Ma trận thực thi cho phép đường dẫn trong dự án và từ chối đường dẫn ngoài dự án, `..\`, ổ khác, nhiều workspace; trước/sau hash được ghi đúng; JSON/TOML/PowerShell hợp lệ; `codex doctor` báo 0 warn, 0 fail.
 - Chủ sở hữu duyệt: Chưa
 - Thời gian duyệt:
-- Còn dở / rủi ro: Chưa gọi model/credit để test trong giao diện Antigravity thật; phiên đang mở có thể cần mở conversation mới để nạp cấu hình.
+- Còn dở / rủi ro: Cần mở task/cửa sổ mới để hai ứng dụng nạp cấu hình; Codex sẽ yêu cầu review/trust chính xác hook mới theo cơ chế bảo mật chính thức. Log là bằng chứng kỹ thuật, không phải nhật ký chống sửa tuyệt đối.
 
 ### TASK-20260723-1118-CODEX-TASK-LEDGER
 

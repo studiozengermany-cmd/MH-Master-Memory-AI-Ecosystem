@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 12:29] — ChatGPT/Codex — TASK-20260723-1138-GEMINI-GLOBAL-SETUP — Mở rộng sang Codex
+
+- Mục tiêu phiên: Áp cùng quy tắc phạm vi, bằng chứng và Master Memory cho Antigravity thường, Antigravity IDE và Codex.
+- Đã làm: Cài scope guard + evidence log cho `.gemini` và `.codex`; giữ DCG; chuyển Codex sang `workspace-write`; thêm luật không lách hook bằng terminal; khóa read-only tám file điều khiển.
+- Trạng thái: Một phần — cấu hình và script đã qua ma trận thực thi; ứng dụng cần task/cửa sổ mới để nạp; Codex cần review/trust hook mới theo cơ chế chính thức.
+- Bằng chứng: Trong dự án ALLOW; ngoài dự án, `..\`, ổ khác và nhiều workspace DENY; hash trước/sau thay đổi đúng; JSON/TOML/PowerShell hợp lệ; `codex doctor` có 0 warn, 0 fail; backup `J:\_codex_backups\ai-global-guards\20260723-121957-before-install`.
+- Còn dở / rủi ro: Không tự giả mạo trust hash của Codex; log kỹ thuật vẫn có thể bị người có quyền máy sửa; mỗi sản phẩm vẫn phải mở một cửa sổ/workspace riêng.
+- Bước tiếp theo đề xuất: Mở task Codex mới và cửa sổ Antigravity mới; review/trust đúng hai hook Codex một lần; thử một lệnh đọc ngoài dự án để thấy DENY thật.
+- Lưu ý cho AI sau: Không gộp nhiều dự án vào một workspace; không dùng terminal để vòng qua scope guard; chỉ đọc context ngắn từ Task Ledger/State trước khi cần tài liệu sâu.
+
 ### [2026-07-23 11:44] — ChatGPT/Codex — TASK-20260723-1138-GEMINI-GLOBAL-SETUP
 
 - Mục tiêu phiên: Thiết lập Antigravity toàn cục đọc bộ nhớ ngắn, tự sync GitHub an toàn và hỗ trợ workflow `/master`.
