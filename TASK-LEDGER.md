@@ -58,7 +58,22 @@
 
 ## Đang làm / Đã thi công
 
-_Không có tác vụ mở._
+### TASK-20260723-1311-PROGRESS-BOARD-SKILL
+
+- AI/Agent: ChatGPT/Codex
+- Model: GPT-5
+- Dự án / workspace: MH Master Memory, Antigravity global và Codex trong ChatGPT
+- Bắt đầu: 2026-07-23 13:11 ICT
+- Mục tiêu: Cài skill bắt buộc lập bảng đối chiếu tiến độ khi Đặng Minh Hiếu yêu cầu, có cổng nghiệm thu theo chuỗi và review code độc lập.
+- Phạm vi: Skill nguồn trong Master Memory; bản cài Codex/Antigravity; adapter global và `mh-check-tong-the`; Task Ledger/Milestone.
+- Risk Tier: Tier 2 — thay đổi quy trình dùng chung và push GitHub `main`
+- Trạng thái: ĐANG LÀM
+- Kết thúc thi công:
+- Đã thay đổi:
+- Bằng chứng:
+- Kết quả kiểm chứng:
+- Thời gian chốt:
+- Còn dở / rủi ro:
 
 ## Vừa hoàn thành
 
