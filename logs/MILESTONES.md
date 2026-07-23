@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 12:45] — ChatGPT/Codex — TASK-20260723-1138-GEMINI-GLOBAL-SETUP — Tổng kết `/MASTER`
+
+- Mục tiêu phiên: Đối chiếu toàn bộ việc từ đầu ngày và xác định chính xác phần đã xong.
+- Đã làm: Xác nhận ba lớp đã được cài: Task Ledger + cờ `/master`; Antigravity global cho bản thường và IDE; Codex nằm trong ChatGPT. Sửa mô tả cũ để không coi Codex là ứng dụng độc lập và không còn báo Gemini chưa được nối.
+- Trạng thái: Một phần — file, hook, sandbox, kiểm thử script và GitHub đã xong; chưa có bằng chứng giao diện sau khi nạp lại ứng dụng và trust hook Codex.
+- Bằng chứng: Chín file điều khiển tồn tại và read-only; Codex dùng `workspace-write`; mirror sạch tại commit `85cf420`; tiến trình Antigravity và Codex đều được mở trước lần cài; config Codex mới chỉ có trust hash của DCG cũ.
+- Còn dở / rủi ro: Phải mở lại Antigravity/IDE và mở task Codex mới; review/trust các hook Codex mới một lần. Không được gọi 100% trước bằng chứng này.
+- Bước tiếp theo đề xuất: Nạp lại hai ứng dụng; chạy một thử nghiệm trong giao diện với file ngoài workspace; nếu DENY và log xuất hiện thì xin chủ sở hữu nghiệm thu hai Task ID.
+- Lưu ý cho AI sau: Codex ở đây là Codex trong ChatGPT Workspace. Không tải context dài; mỗi sản phẩm một workspace/cửa sổ; log kỹ thuật không chống sửa tuyệt đối.
+
 ### [2026-07-23 12:29] — ChatGPT/Codex — TASK-20260723-1138-GEMINI-GLOBAL-SETUP — Mở rộng sang Codex
 
 - Mục tiêu phiên: Áp cùng quy tắc phạm vi, bằng chứng và Master Memory cho Antigravity thường, Antigravity IDE và Codex.

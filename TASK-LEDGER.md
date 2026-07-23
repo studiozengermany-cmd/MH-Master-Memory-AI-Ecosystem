@@ -62,7 +62,7 @@
 
 - AI/Agent: ChatGPT/Codex
 - Model: GPT-5
-- Dự án / workspace: Antigravity global `C:\Users\Minh Hieu Producer\.gemini` và Codex global `C:\Users\Minh Hieu Producer\.codex`
+- Dự án / workspace: Antigravity global `C:\Users\Minh Hieu Producer\.gemini` và Codex trong ChatGPT `C:\Users\Minh Hieu Producer\.codex`
 - Bắt đầu: 2026-07-23 11:38 ICT
 - Mục tiêu: Cài cùng một kỷ luật làm việc ngắn, chặn vượt phạm vi và lưu bằng chứng thay đổi cho Antigravity lẫn Codex.
 - Phạm vi: Global rules/config/hooks của `.gemini` và `.codex`; workflow `/master`; mirror GitHub trong `.gemini\antigravity`
@@ -90,7 +90,7 @@
 - Bằng chứng: Commit `9047a82` cho bản đầu; cờ `/master` của chủ sở hữu; diff đúng 7 file và `git diff --check` đạt.
 - Chủ sở hữu duyệt: Chưa
 - Thời gian duyệt:
-- Còn dở / rủi ro: Chờ Đặng Minh Hiếu nghiệm thu; Gemini toàn cục trong `.gemini` chưa được nối.
+- Còn dở / rủi ro: Chờ Đặng Minh Hiếu nghiệm thu; Gemini toàn cục đã được nối bởi `TASK-20260723-1138-GEMINI-GLOBAL-SETUP`.
 
 ## Vừa được duyệt
 
