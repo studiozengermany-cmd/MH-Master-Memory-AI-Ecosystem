@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 11:18] — ChatGPT/Codex — TASK-20260723-1118-CODEX-TASK-LEDGER
+
+- Mục tiêu phiên: Tạo sổ ký bắt buộc để mọi AI/agent đăng ký tác vụ lớn và không tự tuyên bố hoàn thành trước khi Đặng Minh Hiếu nghiệm thu.
+- Đã làm: Tạo `TASK-LEDGER.md`; nối vào `AGENTS.md`, `AI-BOOTSTRAP.md`, `GEMINI.md`, `LOVABLE.md` và README; phân biệt quyền bắt đầu với xác nhận hoàn thành.
+- Trạng thái: Một phần — nội dung và liên kết đã được kiểm tra; tác vụ vẫn phải giữ `CHỜ ANH DUYỆT` sau khi thi công.
+- Bằng chứng: Task ID `TASK-20260723-1118-CODEX-TASK-LEDGER`, diff Git và commit của phiên.
+- Còn dở / rủi ro: Quy tắc chỉ có hiệu lực với AI đọc bản GitHub/local mới; cấu hình Gemini toàn cục trong `C:\Users\Minh Hieu Producer\.gemini` chưa được nối.
+- Bước tiếp theo đề xuất: Sau khi chủ sở hữu nghiệm thu, cập nhật Task ID thành `HOÀN THÀNH — ĐÃ DUYỆT`; sau đó nối Gemini toàn cục bằng adapter ngắn.
+- Lưu ý cho AI sau: `OK, LÀM ĐI` chỉ cấp quyền thi công. Chưa có câu nghiệm thu rõ thì không được ghi hoàn thành.
+
 ### [2026-07-23 11:10] — ChatGPT/Codex — Bổ sung State, Risk Tiers và Drift Audit
 
 - Mục tiêu phiên: Thêm lớp hiện trạng, phân tầng rủi ro và kiểm tra sai lệch định kỳ vào Master Memory.

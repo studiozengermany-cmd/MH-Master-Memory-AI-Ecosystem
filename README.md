@@ -44,6 +44,7 @@ flowchart TD
 MH-Master-Memory-AI-Ecosystem/
 ├── README.md
 ├── STATE.md
+├── TASK-LEDGER.md
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── GEMINI.md
@@ -80,13 +81,13 @@ MH-Master-Memory-AI-Ecosystem/
 
 1. Mở repository này làm thư mục gốc hoặc cấp quyền đọc repository Private.
 2. Đọc `STATE.md` trước mọi file khác, kể cả trước file khởi động.
-3. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
-4. Đọc `AI-BOOTSTRAP.md`, `AI-ROLES.md` và tự động phân loại công việc theo `docs/core/RISK-TIERS.md` trước khi hành động.
-5. Đọc các tài liệu còn lại trong `docs/core/`; nếu nhiệm vụ có giao diện, bắt buộc đọc `PRODUCT-UI-STANDARD.md`.
-6. Đọc `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách giao tiếp và làm việc; chỉ đọc các hồ sơ ngữ cảnh khác khi nhiệm vụ thực sự cần.
-7. Xác nhận mục tiêu, phạm vi, tài sản đã khóa và tiêu chí hoàn thành.
+3. Chỉ đọc mục **Đang làm / Chờ duyệt** trong `TASK-LEDGER.md`; tiếp tục Task ID phù hợp và không quét nhầm dự án.
+4. Đọc file khởi động tương ứng: Codex dùng `AGENTS.md`, Claude Code dùng `CLAUDE.md`, Google Antigravity dùng `GEMINI.md`, Lovable dùng `LOVABLE.md` trong Project Knowledge.
+5. Đọc `AI-BOOTSTRAP.md`, `AI-ROLES.md` và tự động phân loại công việc theo `docs/core/RISK-TIERS.md` trước khi hành động.
+6. Chỉ đọc các tài liệu sâu liên quan; nhiệm vụ giao diện mới bắt buộc đọc `PRODUCT-UI-STANDARD.md`.
+7. Tác vụ lớn phải ký trước khi ghi file và chỉ được ghi hoàn thành sau khi Đặng Minh Hiếu nghiệm thu rõ.
 8. Thực thi, kiểm thử và lưu bằng chứng thật.
-9. Kết thúc phiên bằng một Milestone Entry trong `logs/MILESTONES.md`.
+9. Kết thúc bằng cập nhật Task ID và một Milestone Entry trong `logs/MILESTONES.md`.
 
 ## Bộ khởi động đa AI
 

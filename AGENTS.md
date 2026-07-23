@@ -4,14 +4,24 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 
 ## Thứ tự đọc bắt buộc
 
-1. `README.md`
-2. `AI-ROLES.md`
-3. `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách làm việc
-4. `docs/core/DECISION-OPERATING-SYSTEM.md`
-5. `docs/core/PRODUCT-UI-STANDARD.md` nếu nhiệm vụ có ứng dụng, website, extension hoặc giao diện
-6. `docs/core/MASTER-MEMORY-SCORECARD.md`
-7. Tài liệu dự án được giao
-8. Các tài liệu khác trong `docs/context/` chỉ khi nhiệm vụ cần thêm bối cảnh cá nhân hoặc toàn hệ sinh thái
+1. `STATE.md`
+2. Mục **Đang làm / Chờ duyệt** trong `TASK-LEDGER.md`
+3. `README.md`
+4. `AI-ROLES.md`
+5. `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách làm việc
+6. `docs/core/DECISION-OPERATING-SYSTEM.md`
+7. `docs/core/PRODUCT-UI-STANDARD.md` nếu nhiệm vụ có ứng dụng, website, extension hoặc giao diện
+8. `docs/core/MASTER-MEMORY-SCORECARD.md`
+9. Tài liệu dự án được giao
+10. Các tài liệu khác trong `docs/context/` chỉ khi nhiệm vụ cần thêm bối cảnh cá nhân hoặc toàn hệ sinh thái
+
+## Cổng ký tác vụ lớn
+
+- Tác vụ lớn phải được đăng ký trong `TASK-LEDGER.md` trước khi ghi file.
+- Nếu Task ID phù hợp đã tồn tại, tiếp tục đúng mục tiêu và phạm vi của entry đó; không tạo tác vụ trùng.
+- AI chính ghi tên mọi agent/subagent và phần việc được giao để giữ một người viết sổ.
+- Kết thúc thi công phải ghi `CHỜ ANH DUYỆT`; chưa có xác nhận nghiệm thu rõ của Đặng Minh Hiếu thì cấm gọi tác vụ là hoàn thành.
+- `OK, LÀM ĐI` chỉ cho phép thi công; không phải câu duyệt kết quả.
 
 ## Trước khi thay đổi
 
@@ -38,6 +48,8 @@ Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
 - Nếu có thuật ngữ hoặc biểu mẫu tiếng Anh, phải giải thích bằng tiếng Việt để chủ sở hữu hiểu trước khi quyết định.
 
 ## Khi kết thúc phiên
+
+Với tác vụ lớn, cập nhật đúng Task ID trong `TASK-LEDGER.md` trước.
 
 Thêm một entry vào `logs/MILESTONES.md` theo `templates/MILESTONE-ENTRY.md`. Phải ghi rõ:
 
