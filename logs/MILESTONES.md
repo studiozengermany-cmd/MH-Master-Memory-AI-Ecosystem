@@ -2,6 +2,16 @@
 
 > Mới nhất ở trên cùng. Chỉ thêm entry; không xóa lịch sử cũ.
 
+### [2026-07-23 11:44] — ChatGPT/Codex — TASK-20260723-1138-GEMINI-GLOBAL-SETUP
+
+- Mục tiêu phiên: Thiết lập Antigravity toàn cục đọc bộ nhớ ngắn, tự sync GitHub an toàn và hỗ trợ workflow `/master`.
+- Đã làm: Tạo `.gemini/GEMINI.md`; chuyển `hooks.json` sang schema Antigravity 2.0 và giữ `dcg`; tạo hook sync/inject lần gọi đầu; tạo workflow global `/master`; clone mirror GitHub vào vùng app data; khóa read-only bốn file điều khiển.
+- Trạng thái: Một phần — script, JSON, Git sync và giới hạn context đã được test; chưa gọi model/credit để kiểm thử giao diện Antigravity thật.
+- Bằng chứng: Hook PowerShell 5 exit 0; commit mirror khớp `origin/main`; lần đầu inject 2.041 ký tự có đúng Task ID, lần sau inject 0; backup `J:\_codex_backups\.gemini\20260723-114019-before-global-setup`.
+- Còn dở / rủi ro: Conversation Antigravity đang mở có thể giữ context cũ; local Master Memory tại `J:` vẫn dirty và không được dùng làm mirror tự động.
+- Bước tiếp theo đề xuất: Mở conversation Antigravity mới; xác nhận global rule và workflow `/master` xuất hiện mà không dùng thêm tài liệu dài.
+- Lưu ý cho AI sau: Nguồn chuẩn là GitHub `main`; không tự ghi đè global rule/hook/workflow; sync chỉ fast-forward, lỗi thì báo `MASTER MEMORY NOT SYNCED`.
+
 ### [2026-07-23 11:32] — ChatGPT/Codex — TASK-20260723-1118-CODEX-TASK-LEDGER — Cờ master
 
 - Mục tiêu phiên: Bổ sung cách phân biệt việc nhỏ/lớn và cờ cưỡng bức lưu tác vụ theo yêu cầu trực tiếp của Đặng Minh Hiếu.

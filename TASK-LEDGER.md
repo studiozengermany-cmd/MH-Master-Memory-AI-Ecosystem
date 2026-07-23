@@ -67,13 +67,13 @@
 - Mục tiêu: Cài global rule ngắn, tự đồng bộ Master Memory có kiểm soát và workflow `/master`.
 - Phạm vi: `.gemini\GEMINI.md`, `.gemini\config\hooks.json`, hook script, global workflow và mirror GitHub trong `.gemini\antigravity`
 - Risk Tier: Tier 2 — thay đổi cấu hình AI toàn cục và đồng bộ GitHub
-- Trạng thái: ĐANG LÀM
-- Kết thúc thi công:
-- Đã thay đổi:
-- Bằng chứng:
+- Trạng thái: CHỜ ANH DUYỆT
+- Kết thúc thi công: 2026-07-23 11:44 ICT
+- Đã thay đổi: Tạo global rule ngắn, workflow `/master`, hook sync lần gọi đầu, mirror GitHub sạch; giữ hook `dcg` và khóa read-only bốn file điều khiển.
+- Bằng chứng: PowerShell 5 chạy sync exit 0; hook đầu tiên inject 2.041 ký tự có đúng Task ID; lần sau inject 0; JSON hợp lệ; mirror khớp `origin/main`.
 - Chủ sở hữu duyệt: Chưa
 - Thời gian duyệt:
-- Còn dở / rủi ro: Đang backup, thiết lập và kiểm thử; không được ghi đè cấu hình cũ thiếu backup.
+- Còn dở / rủi ro: Chưa gọi model/credit để test trong giao diện Antigravity thật; phiên đang mở có thể cần mở conversation mới để nạp cấu hình.
 
 ### TASK-20260723-1118-CODEX-TASK-LEDGER
 
