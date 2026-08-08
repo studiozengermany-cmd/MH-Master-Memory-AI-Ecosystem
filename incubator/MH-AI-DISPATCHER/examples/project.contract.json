@@ -1,0 +1,42 @@
+{
+  "projectId": "mh-demo-001",
+  "name": "MH Demo Project",
+  "repoPath": "C:/path/to/your/project",
+  "baseBranch": "main",
+  "planner": "ChatGPT Work",
+  "state": "LOCKED",
+  "goal": "Implement the planner-approved feature without changing the locked architecture.",
+  "locked": [
+    "Existing API contract remains unchanged",
+    "No production deploy from executor agents"
+  ],
+  "flexible": [
+    "Internal helper names",
+    "Test implementation details"
+  ],
+  "escalate": [
+    "Framework changes",
+    "Database schema changes",
+    "Authentication changes",
+    "New paid services"
+  ],
+  "validationCommands": ["npm test"],
+  "maxParallel": 2,
+  "maxAttemptsPerTask": 2,
+  "tasks": [
+    {
+      "id": "T001",
+      "title": "Implement bounded UI change",
+      "objective": "Apply the approved UI change while preserving the current API flow.",
+      "kind": "frontend",
+      "risk": "low",
+      "preferredEngine": "auto",
+      "allowedPaths": ["src/ui/**", "tests/ui/**"],
+      "forbiddenPaths": ["src/api/**"],
+      "acceptance": ["No horizontal overflow", "Existing API calls remain unchanged"],
+      "validationCommands": [],
+      "dependsOn": [],
+      "ownerApproved": false
+    }
+  ]
+}
