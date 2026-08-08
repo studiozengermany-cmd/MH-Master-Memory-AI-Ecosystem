@@ -1,0 +1,22 @@
+[Unit]
+Description=MH AI Dispatcher
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mhdispatcher
+Group=mhdispatcher
+WorkingDirectory=/opt/mh-ai-dispatcher
+EnvironmentFile=/etc/mh-dispatcher.env
+Environment=MH_DATA_DIR=/var/lib/mh-ai-dispatcher
+ExecStart=/usr/bin/node /opt/mh-ai-dispatcher/dist/src/index.js
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=false
+
+[Install]
+WantedBy=multi-user.target
