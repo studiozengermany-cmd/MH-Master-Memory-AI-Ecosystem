@@ -1,77 +1,64 @@
-# AGENTS.md — Luật vào hệ thống
+# AGENTS.md — MH-Master-Memory-AI-Ecosystem
 
-Tài liệu này áp dụng cho mọi AI Agent làm việc trong kho.
+**Project:** AI Memory System — boot files, skills, templates cho tất cả AI agents
+**GitHub:** git@github.com:studiozengermany-cmd/MH-Master-Memory-AI-Ecosystem.git
 
-## Thứ tự đọc bắt buộc
+---
 
-1. `STATE.md`
-2. Mục **Đang làm / Đã thi công** trong `TASK-LEDGER.md`
-3. `README.md`
-4. `AI-ROLES.md`
-5. `docs/context/OWNER-PROFILE.md`, đặc biệt mục G về cách làm việc
-6. `docs/core/DECISION-OPERATING-SYSTEM.md`
-7. `docs/core/PRODUCT-UI-STANDARD.md` nếu nhiệm vụ có ứng dụng, website, extension hoặc giao diện
-8. `docs/core/MASTER-MEMORY-SCORECARD.md`
-9. Tài liệu dự án được giao
-10. Các tài liệu khác trong `docs/context/` chỉ khi nhiệm vụ cần thêm bối cảnh cá nhân hoặc toàn hệ sinh thái
+# QUY TẮC BẮT BUỘC CHO MỌI AI
 
-## Cổng ký tác vụ lớn
+> File này là luật. Mọi AI agent (Claude, Gemini, Antigravity, GPT, Cursor...) mở folder này PHẢI đọc và tuân theo trước khi làm bất cứ điều gì.
 
-- Nếu yêu cầu có dòng `/master`, `- master` hoặc `• master`, phải lưu tác vụ hiện tại theo mục **Cờ master** trong `TASK-LEDGER.md` trước hành động tiếp theo.
-- Việc nhỏ chỉ khi thỏa toàn bộ điều kiện trong `TASK-LEDGER.md`; nếu không chắc, xếp là việc lớn.
-- Tác vụ lớn phải được đăng ký trong `TASK-LEDGER.md` trước khi ghi file.
-- Nếu Task ID phù hợp đã tồn tại, tiếp tục đúng mục tiêu và phạm vi của entry đó; không tạo tác vụ trùng.
-- AI chính ghi tên mọi agent/subagent và phần việc được giao để giữ một người viết sổ.
-- Kết thúc phần được giao phải ghi `ĐÃ THI CÔNG` và bằng chứng; không tạo thêm một vòng xin duyệt mặc định.
-- Chỉ ghi `CHỜ QUYẾT ĐỊNH` khi thật sự thiếu một lựa chọn của Đặng Minh Hiếu có thể làm thay đổi kết quả hoặc mức rủi ro.
-- Chỉ ghi `HOÀN THÀNH — ĐÃ KIỂM CHỨNG` khi đủ bằng chứng phù hợp; nếu còn thiếu kiểm thử giao diện hoặc trải nghiệm thật thì giữ `ĐÃ THI CÔNG` và nói rõ phần thiếu.
-- Khi Đặng Minh Hiếu nói “lập bảng đối chiếu/bảng tiến độ”, bắt buộc dùng `skills/mh-progress-board/`; cập nhật một bảng duy nhất theo plan đã chốt.
-- `CHỜ NGHIỆM THU CHUỖI` là cổng đặc biệt chỉ bật khi Đặng Minh Hiếu gọi rõ; sau đó một AI/task khác review read-only trước khi chủ sở hữu chốt xanh.
+---
 
-## Trước khi thay đổi
+## 1. CHỦ DỰ ÁN
 
-- Nói rõ mục tiêu và phạm vi.
-- Khi có kết nối GitHub, kiểm tra `origin/main` mới nhất để không làm việc từ bộ nhớ cũ.
-- Kiểm tra tài sản đã khóa và thay đổi đang tồn tại.
-- Không xóa, ghi đè, đổi cấu trúc lớn, commit, push hoặc deploy nếu chưa có quyền rõ ràng.
-- Không đưa dữ liệu nội bộ, thông tin cá nhân hoặc bí mật vào log công khai.
+- **Tên:** Studio Minh Hiếu (studiozengermany-cmd)
+- **Workspace gốc:** `C:\Users\Minh Hieu Producer\MASTER SKILL - AI\`
 
-## Khi thực thi
+---
 
-- Ưu tiên kết quả chạy thật.
-- Không tạo placeholder, TODO giả, nút giả hoặc bằng chứng giả.
-- Không tự mở rộng phạm vi chỉ để sản phẩm trông lớn hơn.
-- Nếu phát hiện lỗi nền tảng, dừng mở rộng và báo tác động trước.
-- Không được dùng sự thận trọng, giới hạn quyền hạn hoặc câu “không tự ý làm” làm lý do đứng ngoài vấn đề hay đẩy toàn bộ trách nhiệm giải quyết ngược lại cho chủ sở hữu. Phải tiếp tục xử lý mọi phần an toàn đã rõ, cùng chủ sở hữu tìm hướng giải quyết và hỏi ngắn gọn đúng phần còn thiếu.
-- Khi chưa thể thực hiện ngay, phản hồi bắt buộc phải có: vấn đề đã hiểu, phương án ưu tiên, phần AI có thể làm ngay và câu hỏi/quyền cần bổ sung. Không kết thúc ở việc nói “chưa làm gì” hoặc chỉ liệt kê điều AI sẽ không làm, trừ khi chủ sở hữu yêu cầu dừng hoàn toàn.
-- Khi lời nói của chủ sở hữu mang tính cảm thán hoặc còn mơ hồ trong một công việc đang diễn ra, phải giữ mạch bối cảnh, xác nhận ý định nếu cần và chủ động đề xuất cách xử lý; không tự biến nó thành một yêu cầu không liên quan.
-- Nếu AI hiểu sai hoặc gây lỗi, xin lỗi chỉ là bước đầu. Phải nhận đúng tác động, sửa phần có thể sửa, đưa ra cách giải quyết tiếp theo và ghi biện pháp ngăn tái diễn khi lỗi có nguy cơ lặp lại.
-- Chỉ dùng `prompt-master` khi người dùng yêu cầu viết, sửa, audit hoặc chuyển đổi prompt; không dùng skill này thay cho việc thực thi nhiệm vụ trực tiếp.
-- Với sản phẩm có UI, chức năng tốt và giao diện đạt chuẩn là hai cổng độc lập. Không dùng chữ “nhanh” hoặc “MVP” để biện minh cho giao diện làm tạm; thiết kế đã duyệt là tài sản khóa.
-- Mã nguồn đang có, build pass hoặc báo cáo của AI trước không tự động có nghĩa là chủ sở hữu đã duyệt kết quả.
-- Khi người dùng yêu cầu “gom”, phải hợp nhất toàn bộ yêu cầu thành một bản cuối ngắn và nhất quán; không phát hành chuỗi prompt vá theo từng câu sửa.
-- Nếu có thuật ngữ hoặc biểu mẫu tiếng Anh, phải giải thích bằng tiếng Việt để chủ sở hữu hiểu trước khi quyết định.
+## 2. QUY TẮC TỔ CHỨC — KHÔNG ĐƯỢC VI PHẠM
 
-## Khi kết thúc phiên
+| Quy tắc | Chi tiết |
+|---|---|
+| **Không clone/tạo file ra ngoài workspace** | Mọi thứ phải nằm trong `MASTER SKILL - AI\` |
+| **Không tự tạo thư mục mới** | Hỏi chủ dự án trước |
+| **Không sửa file đang chạy** | Chỉ sửa đúng thứ được yêu cầu |
+| **Không báo xong khi chưa kiểm tra** | Phải có bằng chứng thật |
+| **Skills** | Chỉ cài vào `.agents\skills\` |
+| **Repos mới** | Phải được chủ dự án xác nhận trước |
 
-Với tác vụ lớn, cập nhật đúng Task ID trong `TASK-LEDGER.md` trước.
+---
 
-Thêm một entry vào `logs/MILESTONES.md` theo `templates/MILESTONE-ENTRY.md`. Phải ghi rõ:
+## 3. CẤU TRÚC WORKSPACE CHUẨN
 
-- mục tiêu;
-- phần đã làm;
-- trạng thái Tested / Untested / Một phần;
-- bằng chứng;
-- phần còn dở và rủi ro;
-- bước tiếp theo;
-- cảnh báo cho AI sau.
+```
+MASTER SKILL - AI\
+├── .agents\skills\          ← tất cả skills AI
+├── Obsidian-Master\         ← vault ghi chú
+├── MH-Master-Memory-AI-Ecosystem\  ← AI memory system
+├── [project-mới]\           ← mỗi project một folder
+├── AGENTS.md                ← file này — luật chung
+├── GEMINI.md                ← protocol AI
+└── CLAUDE.md                ← protocol AI
+```
 
-Không sửa hoặc xóa lịch sử cũ để làm đẹp báo cáo.
+---
 
-Nếu trong phiên có xác nhận, sửa sai, quyết định hoặc sở thích mới từ Đặng Minh Hiếu:
+## 4. TRƯỚC KHI LÀM BẤT CỨ GÌ
 
-- bổ sung vào tài liệu hiện có phù hợp; không tạo hồ sơ trùng;
-- thêm Milestone mới;
-- loại bỏ hoặc đánh dấu thông tin cũ đã bị thay thế để AI sau không tiếp tục dùng;
-- đẩy bản cập nhật Master Memory lên GitHub bằng branch/PR an toàn trong ngày khi có quyền và kết nối;
-- không tạo commit rỗng nếu không có thông tin mới đã xác nhận.
+1. Đọc file này xong
+2. Đọc `GEMINI.md` nếu có
+3. Đọc `Nhật ký.md` nếu có — xem context trước đó
+4. Hỏi nếu không chắc — **không tự làm đại**
+
+---
+
+## 5. GHI NHẬT KÝ
+
+Mọi thay đổi quan trọng phải ghi vào `Nhật ký.md` của project — append only, không xóa entry cũ.
+
+---
+
+> **Nguyên tắc cuối:** Mở folder nào thì biết làm theo folder đó. Không chờ nhắc. Không hỏi lại những gì đã ghi ở đây.
